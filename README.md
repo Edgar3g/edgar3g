@@ -8,8 +8,8 @@ I like to share knowledge and learn.
 - 🌱 I’m currently learning more about technology. 
 - 🤝 I’m looking to collaborate on all projects. 
 
-![Edgar A. Dikenge github stats](https://github-readme-stats.vercel.app/api?username=edgar3g)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=edgar3g&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+![Edgar A. Dikenge github stats](https://github-readme-stats.vercel.app/api?username=edgar3g)  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=edgar3g&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
 
 
 
