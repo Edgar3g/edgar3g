@@ -12,9 +12,9 @@
 ██████╔╝██║██║  ██╗███████╗██║ ╚████║╚██████╔╝███████╗
 ╚═════╝ ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝
 
- ██████╗
-██╔════╝
-██║  ███║ using { "py":['django', 'selenium', 'vanilla'], "java":['springBoot', 'swing']}
+ ██████╗using { "py":['django', 'selenium', 'vanilla'], "java":['springBoot', 'swing'],
+██╔════╝        "javascript/typescript": ['vuejs', 'angular', 'nestjs'],}
+██║  ███║
 ██║   ██║
 ╚██████╔╝
  ╚═════╝
