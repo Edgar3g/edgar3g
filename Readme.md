@@ -43,6 +43,9 @@
 
 
 
- [![Trophies](https://github-profile-trophy.vercel.app/?username=edgar3g&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
- ![snake gif](https://github.com/edgar3g/edgar3g/blob/output/github-contribution-grid-snake.gif)
-![snake gif](https://github.com/Edgar3g/edgar3g/blob/output/github-contribution-grid-snake-dark.svg)
+[![Trophies](https://github-profile-trophy.vercel.app/?username=edgar3g&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/edgar3g/edgar3g/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/edgar3g/edgar3g/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/edgar3g/edgar3g/output/github-contribution-grid-snake.svg">
+</picture>
