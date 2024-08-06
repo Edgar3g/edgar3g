@@ -44,4 +44,4 @@
 
 
  [![Trophies](https://github-profile-trophy.vercel.app/?username=edgar3g&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
- ![Snake animation](https://raw.githubusercontent.com/edgar3g/edgar3g/output/github-contribution-grid-snake-dark.svg)
+ [![snake gif](https://github.com/edgar3g/edgar3g/blob/output/github-contribution-grid-snake.gif)]
