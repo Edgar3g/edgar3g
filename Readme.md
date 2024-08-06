@@ -1,39 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+<pre>
+███████╗
+██╔════╝
+█████╗
+██╔══╝
+███████╗
+╚══════╝ // Hi, can you readme ? 🙃
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+██████╗ ██╗██╗  ██╗███████╗███╗   ██╗ ██████╗ ███████╗ # so I'm a Software developer, from Angola 🇦🇴
+██╔══██╗██║██║ ██╔╝██╔════╝████╗  ██║██╔════╝ ██╔════╝ /* I am very happy to see you here...*/
+██║  ██║██║█████╔╝ █████╗  ██╔██╗ ██║██║  ███╗█████╗  // Let's talk about tech, ideias, education and life!
+██║  ██║██║██╔═██╗ ██╔══╝  ██║╚██╗██║██║   ██║██╔══╝  404
+██████╔╝██║██║  ██╗███████╗██║ ╚████║╚██████╔╝███████╗
+╚═════╝ ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝
 
-  <title>Dikenge Dev</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+ ██████╗
+██╔════╝
+██║  ███║
+██║   ██║
+╚██████╔╝
+ ╚═════╝
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+ █████╗
+██╔══██╗
+███████║
+██╔══██║
+██║  ██║
+╚═╝  ╚═╝
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+██████╗
+██╔══██╗
+██████╔╝
+██╔══██╗
+██║  ██║
+╚═╝  ╚═╝
+</pre>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
- 
-</head>
-
-<body>
-
-
-      <h1><a href="index.html">Edgar A. Dikenge</a></h1>
-      <h2>I'm a Lil dreamer <span>Software Engineer</span> from Luanda.</h2>
-
-    
-
-</body>
-
-</html>
+[![Edgar's github stats](https://github-readme-stats.vercel.app/api?username=Edgar3g&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515&count_private=true)](https://github.com/Edgar3g)
+ [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edgar-almeida-dikenge-199330261/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Edgar3g)
