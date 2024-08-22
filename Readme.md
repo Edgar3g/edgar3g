@@ -37,11 +37,8 @@
  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edgar-almeida-dikenge-199330261/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Edgar3g)
  [![Gmail Badge](https://img.shields.io/badge/-dikengeofficialmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:dikengeofficial@gmail.com)](mailto:dikengeofficial@gmail.com)
 
-
-
-
-
-
+ ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=edgar3g&show_icons=true&theme=radical)
+ ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=edgar3g&layout=compact&langs_count=10)
 
 [![Trophies](https://github-profile-trophy.vercel.app/?username=edgar3g&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 <picture>
