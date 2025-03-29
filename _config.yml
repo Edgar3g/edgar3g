@@ -1,0 +1,6 @@
+theme: minima
+author: "Edgar3g"
+plugins:
+  - jekyll-feed
+description: "Edgar3g's GitHub Pages"
+url: "https://edgar3g.github.io"
