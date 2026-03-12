@@ -34,15 +34,40 @@
 ╚═╝  ╚═╝
 </pre>
 
- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edgar-almeida-dikenge-199330261/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Edgar3g)
- [![Gmail Badge](https://img.shields.io/badge/-dikengeofficialmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:dikengeofficial@gmail.com)](mailto:dikengeofficial@gmail.com)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/edgar3g/edgar3g/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%">
+  
+  <br>
 
- ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=edgar3g&show_icons=true&theme=radical)
- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=edgar3g&layout=compact&langs_count=10)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edgar-almeida-dikenge-199330261/) 
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Edgar3g)
+  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dikengeofficial@gmail.com)
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=edgar3g&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/edgar3g/edgar3g/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/edgar3g/edgar3g/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/edgar3g/edgar3g/output/github-contribution-grid-snake.svg">
-</picture>
+  <br>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=Code%20is%20like%20humor.%20When%20you%20have%20to%20explain%20it%2C%20it%27s%20bad." alt="Dev Quote" />
+</div>
+
+---
+
+### 🛠️ Tactical Intel (Metrics & Data)
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=edgar3g&show_icons=true&theme=radical&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=edgar3g&layout=compact&langs_count=10&theme=radical&hide_progress=false" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=edgar3g&theme=onedark&column=7&margin-w=15&no-bg=true" alt="Trophies" />
+</div>
+
+---
+
+### 🕵️‍♂️ Hidden Activity (Private Contributions)
+
+> **Note:** Many of my most complex architectural solutions reside in private sectors. 
+> To see the full impact of my private commits (which the stats above might miss), 
+> keep an eye on the **Snake Animation** above — it tracks the heat of the real grind.
+
+---
