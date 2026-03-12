@@ -66,8 +66,7 @@
 
 ### 🕵️‍♂️ Hidden Activity (Private Contributions)
 
-> **Note:** Many of my most complex architectural solutions reside in private sectors. 
-> To see the full impact of my private commits (which the stats above might miss), 
-> keep an eye on the **Snake Animation** above — it tracks the heat of the real grind.
+> **Note:** Many of my most complex architectural solutions reside in private sectors.
 
 ---
+
