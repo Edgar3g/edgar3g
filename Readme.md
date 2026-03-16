@@ -35,7 +35,7 @@
 </pre>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/edgar3g/edgar3g/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%">
+  <img src="https://raw.githubusercontent.com/edgar3g/edgar3g/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%">
   
   <br>
 
