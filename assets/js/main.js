@@ -250,9 +250,26 @@
   new PureCounter();
 
   /**
-   * i18n — data is embedded inline via window.SITE_DATA (no fetch needed)
+   * i18n — fetches data.json over HTTP (GitHub Pages), falls back to
+   * window.SITE_DATA when opened via file:// (local development).
    */
   let currentLang = localStorage.getItem('lang') || 'pt';
+
+  const boot = async () => {
+    let data;
+    try {
+      // Works on http:// (GitHub Pages). Fails silently on file://.
+      const res = await fetch('data.json');
+      if (!res.ok) throw new Error('fetch failed');
+      data = await res.json();
+    } catch (_) {
+      // Fallback: inline data embedded in index.html for file:// usage
+      data = window.SITE_DATA;
+    }
+    if (!data) return;
+    window.SITE_DATA = data; // normalise so renderContent always reads from here
+    renderContent(currentLang);
+  };
 
   const updateText = (element, key, data) => {
     const keys = key.split('.');
@@ -399,7 +416,7 @@
     });
   }
 
-  // Initial render — SITE_DATA is already available synchronously
-  renderContent(currentLang);
+  // Boot: fetch data.json (HTTP) or fall back to inline SITE_DATA (file://)
+  boot();
 
 })()

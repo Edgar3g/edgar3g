@@ -4,6 +4,7 @@
       "home": "Início",
       "about": "Sobre",
       "resume": "Currículo",
+      "projects": "Projetos",
       "contact": "Contacto"
     },
     "header": {
@@ -16,13 +17,21 @@
       "title": "Sobre",
       "subtitle": "Saiba mais sobre mim",
       "role": "Engenheiro de Software",
-      "description_short": "Um entusiasta de tecnologia e ensino em todas as suas formas.",
+      "description_short": "Entusiasta de tecnologia e ensino em todas as suas formas.",
+      "label_city": "Cidade:",
       "city": "Luanda, Angola",
+      "label_nationality": "Nacionalidade:",
+      "nationality": "Angolana",
+      "label_degree": "Grau:",
       "degree": "Licenciatura",
+      "label_course": "Curso:",
       "course": "Ciências da Computação",
       "email": "dikengeofficial@gmail.com",
-      "bio_1": "Olá, eu sou Edgar Dikenge, estudante de Ciências da Computação no Instituto Superior Politécnico Metropolitano de Angola.",
-      "bio_2": "Engenheiro de Software com experiência desde 2020 no desenvolvimento de soluções digitais robustas, com foco em performance, escalabilidade e boas práticas. Desenvolvedor independente com proficiência em JS/TS, Python, Java e C/C++. Experiência comprovada em entregar soluções inovadoras. Comprometido com a excelência técnica."
+      "bio": "Engenheiro de Software com experiência desde 2020 no desenvolvimento de soluções digitais robustas, com foco em performance, escalabilidade e boas práticas. Atua com TypeScript, Python, Java e C/C++, desenvolvendo APIs, microsserviços e integrações backend. Forte capacidade de liderança, autonomia e alinhamento entre tecnologia e negócio.",
+      "languages_label": "Idiomas",
+      "skills_title": "Skills",
+      "soft_skills_title": "Soft Skills",
+      "tech_stack_title": "Stack Tecnológico"
     },
     "resume": {
       "title": "Currículo",
@@ -31,17 +40,21 @@
       "download_pt": "Baixar CV (Português)",
       "summary_title": "Resumo",
       "education_title": "Educação",
-      "experience_title": "Experiência Profissional",
+      "experience_title": "Experiência",
       "summary_item_title": "ADMIN e Co-Fundador",
-      "summary_desc_1": "Sou Administrador de uma das melhores comunidades de desenvolvedores em Angola, DEV'S.AO",
-      "summary_desc_2": "E sou co-fundador do IDC-IMETRO DEV CLUB. Um núcleo de estudantes universitários na IMETRO, que tem ajudado vários estudantes a crescer em suas carreiras profissionais."
+      "summary_desc_1": "Administrador de uma das maiores comunidades de devs em Angola — DEV'S.AO",
+      "summary_desc_2": "Co-fundador do IDC - IMETRO DEV CLUB, núcleo universitário que apoia estudantes a crescerem na carreira tech."
+    },
+    "projects_section": {
+      "title": "Projetos",
+      "subtitle": "O que Construí"
     },
     "contact": {
       "title": "Contacto",
       "subtitle": "Fale Comigo",
-      "address_title": "Meu Endereço",
+      "address_title": "Endereço",
       "social_title": "Redes Sociais",
-      "email_title": "Meu Email"
+      "email_title": "Email"
     },
     "personal_info": {
       "full_name": "Edgar A. Dikenge",
@@ -51,84 +64,94 @@
       "website": "https://edgar3g.github.io/edgar3g/",
       "linkedin": "https://ao.linkedin.com/in/edgar-almeida-dikenge-199330261",
       "whatsapp": "940570575",
-      "address": "Simione, Camama, Luanda"
+      "address": "Gamek à Directa, Camama, Luanda, Angola"
     },
     "professional_experience": [
-      {
-        "role": "Desenvolvedor de Software (Freelancer)",
-        "company": "Freelancer",
-        "location": "Angola",
-        "period": "2023 - Atual",
-        "description": "Desenvolvimento de soluções multifacetadas com autonomia total. Responsável pela concepção e implantação de soluções robustas e versáteis."
-      },
       {
         "role": "Desenvolvedor de Software / Tech Lead",
         "company": "Cinapse SA",
         "location": "Luanda, Angola",
-        "period": "2024 - Atual",
-        "description": "Liderança técnica e desenvolvimento de soluções backend, com foco em arquitetura sólida e necessidades do cliente."
+        "period": "Mai 2024 – Atual",
+        "description": "Liderança técnica da equipa backend em Java/Spring Boot, foco em arquitetura sólida, code review e alinhamento com necessidades do cliente."
       },
       {
         "role": "Desenvolvedor Backend",
         "company": "Mountain Light Business",
         "location": "Luanda, Angola",
-        "period": "2025 - Atual",
-        "description": "Desenvolvimento backend com TypeScript (Nest.js), construção de APIs escaláveis e microsserviços."
+        "period": "Fev 2025 – Atual",
+        "description": "Desenvolvimento backend com TypeScript (Nest.js), construção de APIs escaláveis, microsserviços e contribuição na arquitetura de sistemas."
       },
       {
         "role": "Desenvolvedor de Software Jr.",
         "company": "Znattech",
         "location": "Luanda, Angola",
-        "period": "2021 - 2022",
-        "description": "Desenvolvimento com Vue.js, Django e Odoo. Criação de interfaces dinâmicas em equipa ágil."
+        "period": "2021 – 2022",
+        "description": "Desenvolvimento com Vue.js, Django e Odoo. Criação de interfaces dinâmicas em equipa ágil com entregas de alta qualidade."
+      },
+      {
+        "role": "Desenvolvedor Freelancer",
+        "company": "Freelancer",
+        "location": "Angola",
+        "period": "2020 – Atual",
+        "description": "Soluções multifacetadas com autonomia total: Landing Pages, Sistemas de Gestão, APIs e mais, utilizando TypeScript, Python, Java e C/C++."
       }
     ],
     "education": [
       {
         "degree": "Ciências da Computação",
         "institution": "Instituto Superior Politécnico Metropolitano de Angola",
-        "period": "2022 - Atual",
-        "description": "Estudante do 3º ano do curso de Ciências da Computação."
+        "period": "2022 – Atual",
+        "description": "3º ano. Foco em Engenharia de Software, Estruturas de Dados e Sistemas Distribuídos."
       },
       {
         "degree": "Técnico de Informática",
         "institution": "Instituto Médio Politécnico Alda Lara",
-        "period": "2018 - 2022",
-        "description": "Ensino médio técnico na área de informática."
+        "period": "2018 – 2022",
+        "description": "Ensino médio técnico em Informática e Programação."
       }
     ],
     "skills": [
+      { "name": "HTML & CSS", "level": 85 },
+      { "name": "JavaScript/TypeScript", "level": 85 },
+      { "name": "Java & Spring Boot", "level": 80 },
+      { "name": "Python & Django", "level": 85 },
+      { "name": "Vue.js & Nuxt", "level": 60 },
+      { "name": "NestJS", "level": 80 },
+      { "name": "C/C++", "level": 65 },
+      { "name": "Infraestrutura", "level": 83 }
+    ],
+    "soft_skills": [
+      "Resolução de Problemas Complexos",
+      "Liderança de Equipa",
+      "Comunicação Estratégica",
+      "Gestão de Tempo & Prioridades"
+    ],
+    "tech_stack": [
+      "PostgreSQL", "MongoDB", "Redis", "Kafka", "RabbitMQ",
+      "Docker", "Kubernetes", "GitHub Actions", "gRPC", "GraphQL", "MinIO", "Linux"
+    ],
+    "languages": [
+      { "name": "Português", "level": "Nativo" },
+      { "name": "Inglês", "level": "B1 / B2" }
+    ],
+    "projects": [
       {
-        "name": "HTML & CSS",
-        "level": 85
+        "name": "IMETRO DEV CLUB — IDC",
+        "period": "Mar 2024 – Atual",
+        "description": "Co-fundador de um núcleo universitário que ajuda estudantes a desenvolver competências tech e a crescer profissionalmente.",
+        "link": "https://www.linkedin.com/events/7183109295977222144/about/"
       },
       {
-        "name": "JavaScript/TypeScript",
-        "level": 85
+        "name": "DEV'S.AO Community",
+        "period": "2022 – Atual",
+        "description": "Administrador de uma das maiores comunidades de desenvolvedores em Angola, reunindo centenas de profissionais e estudantes.",
+        "link": "https://chat.whatsapp.com/JKirIC0g88n6PfOkR6cr3t"
       },
       {
-        "name": "Java & Spring Boot",
-        "level": 80
-      },
-      {
-        "name": "Python & Django",
-        "level": 85
-      },
-      {
-        "name": "Vue.js & Nuxt",
-        "level": 60
-      },
-      {
-        "name": "NestJS",
-        "level": 80
-      },
-      {
-        "name": "C/C++",
-        "level": 65
-      },
-      {
-        "name": "Infraestrutura",
-        "level": 83
+        "name": "Todos Podem Codar",
+        "period": "Jan – Mai 2023",
+        "description": "Projeto de ensino de programação para estudantes de nível básico, com materiais e mentoria gratuitos.",
+        "link": null
       }
     ]
   },
@@ -137,6 +160,7 @@
       "home": "Home",
       "about": "About",
       "resume": "Resume",
+      "projects": "Projects",
       "contact": "Contact"
     },
     "header": {
@@ -150,12 +174,20 @@
       "subtitle": "Know more about me",
       "role": "Software Engineer",
       "description_short": "A technology and teaching enthusiast in all its forms.",
+      "label_city": "City:",
       "city": "Luanda, Angola",
+      "label_nationality": "Nationality:",
+      "nationality": "Angolan",
+      "label_degree": "Degree:",
       "degree": "Bachelor's Degree",
+      "label_course": "Course:",
       "course": "Computer Science",
       "email": "dikengeofficial@gmail.com",
-      "bio_1": "Hello, I'm Edgar Dikenge, Computer Science student at Instituto Superior Politécnico Metropolitano de Angola.",
-      "bio_2": "Software Engineer with experience since 2020 developing robust digital solutions, focusing on performance, scalability, and best practices. Independent developer proficient in JS/TS, Python, Java, and C/C++. Proven experience in delivering innovative solutions. Committed to technical excellence."
+      "bio": "Software Engineer with experience since 2020 building robust digital solutions, focused on performance, scalability and best practices. Works with TypeScript, Python, Java and C/C++, developing APIs, microservices and backend integrations. Strong leadership skills, autonomy and alignment between technology and business.",
+      "languages_label": "Languages",
+      "skills_title": "Skills",
+      "soft_skills_title": "Soft Skills",
+      "tech_stack_title": "Tech Stack"
     },
     "resume": {
       "title": "Resume",
@@ -164,10 +196,14 @@
       "download_pt": "Download CV (Portuguese)",
       "summary_title": "Summary",
       "education_title": "Education",
-      "experience_title": "Professional Experience",
+      "experience_title": "Experience",
       "summary_item_title": "ADMIN & Co-Founder",
-      "summary_desc_1": "I am the Admin of one of the best developer communities in Angola, DEV'S.AO",
-      "summary_desc_2": "And I'm the co-founder of IDC-IMETRO DEV CLUB. A university student center at IMETRO, which has helped several students grow in their professional careers."
+      "summary_desc_1": "Admin of one of the biggest developer communities in Angola — DEV'S.AO",
+      "summary_desc_2": "Co-founder of IDC - IMETRO DEV CLUB, a university tech center helping students grow in their professional careers."
+    },
+    "projects_section": {
+      "title": "Projects",
+      "subtitle": "What I've Built"
     },
     "contact": {
       "title": "Contact",
@@ -184,84 +220,94 @@
       "website": "https://edgar3g.github.io/edgar3g/",
       "linkedin": "https://ao.linkedin.com/in/edgar-almeida-dikenge-199330261",
       "whatsapp": "940570575",
-      "address": "Simione, Camama, Luanda"
+      "address": "Gamek à Directa, Camama, Luanda, Angola"
     },
     "professional_experience": [
-      {
-        "role": "Software Developer (Freelancer)",
-        "company": "Freelancer",
-        "location": "Angola",
-        "period": "2023 - Present",
-        "description": "Development of multifaceted solutions with total autonomy. Responsible for the design and implementation of robust and versatile solutions."
-      },
       {
         "role": "Software Developer / Tech Lead",
         "company": "Cinapse SA",
         "location": "Luanda, Angola",
-        "period": "2024 - Present",
-        "description": "Technical leadership and backend solutions development, focusing on solid architecture and client needs."
+        "period": "May 2024 – Present",
+        "description": "Technical leadership of the backend team in Java/Spring Boot, focused on solid architecture, code review and client alignment."
       },
       {
         "role": "Backend Developer",
         "company": "Mountain Light Business",
         "location": "Luanda, Angola",
-        "period": "2025 - Present",
-        "description": "Backend development with TypeScript (Nest.js), building scalable APIs and microservices."
+        "period": "Feb 2025 – Present",
+        "description": "Backend development with TypeScript (Nest.js), building scalable APIs, microservices and contributing to system architecture."
       },
       {
         "role": "Jr. Software Developer",
         "company": "Znattech",
         "location": "Luanda, Angola",
-        "period": "2021 - 2022",
-        "description": "Development with Vue.js, Django and Odoo. Creation of dynamic interfaces in an agile team."
+        "period": "2021 – 2022",
+        "description": "Development with Vue.js, Django and Odoo. Created dynamic interfaces in an agile team delivering high-quality solutions."
+      },
+      {
+        "role": "Freelance Developer",
+        "company": "Freelancer",
+        "location": "Angola",
+        "period": "2020 – Present",
+        "description": "Multifaceted solutions with full autonomy: Landing Pages, Management Systems, APIs and more in TypeScript, Python, Java and C/C++."
       }
     ],
     "education": [
       {
         "degree": "Computer Science",
         "institution": "Instituto Superior Politécnico Metropolitano de Angola",
-        "period": "2022 - Present",
-        "description": "3rd-year Computer Science student."
+        "period": "2022 – Present",
+        "description": "3rd year. Focus on Software Engineering, Data Structures and Distributed Systems."
       },
       {
         "degree": "IT Technician",
         "institution": "Instituto Médio Politécnico Alda Lara",
-        "period": "2018 - 2022",
-        "description": "High school technical degree in Information Technology."
+        "period": "2018 – 2022",
+        "description": "Technical high school degree in Informatics and Programming."
       }
     ],
     "skills": [
+      { "name": "HTML & CSS", "level": 85 },
+      { "name": "JavaScript/TypeScript", "level": 85 },
+      { "name": "Java & Spring Boot", "level": 80 },
+      { "name": "Python & Django", "level": 85 },
+      { "name": "Vue.js & Nuxt", "level": 70 },
+      { "name": "NestJS", "level": 80 },
+      { "name": "C/C++", "level": 65 },
+      { "name": "Infrastructure", "level": 83 }
+    ],
+    "soft_skills": [
+      "Complex Problem Solving",
+      "Team Leadership",
+      "Strategic Communication",
+      "Time & Priority Management"
+    ],
+    "tech_stack": [
+      "PostgreSQL", "MongoDB", "Redis", "Kafka", "RabbitMQ",
+      "Docker", "Kubernetes", "GitHub Actions", "gRPC", "GraphQL", "MinIO", "Linux"
+    ],
+    "languages": [
+      { "name": "Portuguese", "level": "Native" },
+      { "name": "English", "level": "B2" }
+    ],
+    "projects": [
       {
-        "name": "HTML & CSS",
-        "level": 85
+        "name": "IMETRO DEV CLUB — IDC",
+        "period": "Mar 2024 – Present",
+        "description": "Co-founder of a university tech club that helps students develop tech skills and grow professionally.",
+        "link": "https://www.linkedin.com/events/7183109295977222144/about/"
       },
       {
-        "name": "JavaScript/TypeScript",
-        "level": 85
+        "name": "DEV'S.AO Community",
+        "period": "2022 – Present",
+        "description": "Admin of one of the largest developer communities in Angola, bringing together hundreds of professionals and students.",
+        "link": "https://chat.whatsapp.com/JKirIC0g88n6PfOkR6cr3t"
       },
       {
-        "name": "Java & Spring Boot",
-        "level": 80
-      },
-      {
-        "name": "Python & Django",
-        "level": 85
-      },
-      {
-        "name": "Vue.js & Nuxt",
-        "level": 70
-      },
-      {
-        "name": "NestJS",
-        "level": 80
-      },
-      {
-        "name": "C/C++",
-        "level": 65
-      },
-      {
-        "name": "Infrastructure",
-        "level": 83
+        "name": "Todos Podem Codar",
+        "period": "Jan – May 2023",
+        "description": "A programming education initiative for beginner students, with free materials and mentorship.",
+        "link": null
       }
     ]
   }
