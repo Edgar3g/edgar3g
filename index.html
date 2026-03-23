@@ -6,11 +6,15 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Dikenge Dev</title>
-  <meta content="Edgar Dikenge, website protifolio" name="description">
-  <meta content="Edgar Dikenge, Dev'Ao" name="keywords">
+  <meta content="Edgar Dikenge — Software Engineer from Luanda, Angola" name="description">
+  <meta content="Edgar Dikenge, Backend Developer, Angola, Dev'Ao" name="keywords">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,13 +26,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Personal - v4.10.0
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -37,24 +34,29 @@
   <header id="header">
     <div class="container">
 
-      <h1><a href="index.html">Edgar A. Dikenge</a></h1>
-      <h2>I'm a Dreamer <span>Software Developer</span> from Luanda.</h2>
+      <h1><a href="index.html" data-i18n="header.name">Edgar A. Dikenge</a></h1>
+      <h2>
+        <span data-i18n="header.title_prefix">I'm a passionate</span>
+        <span class="highlight" data-i18n="header.title_highlight">Software Developer</span>
+        <span data-i18n="header.title_suffix">from Luanda.</span>
+      </h2>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link active" href="#header">Home</a></li>
-          <li><a class="nav-link" href="#about">About</a></li>
-          <li><a class="nav-link" href="#resume">Resume</a></li>
-          <li><a class="nav-link" href="#contact">Contact</a></li>
+          <li><a class="nav-link active" href="#header" data-i18n="nav.home">Home</a></li>
+          <li><a class="nav-link" href="#about" data-i18n="nav.about">About</a></li>
+          <li><a class="nav-link" href="#resume" data-i18n="nav.resume">Resume</a></li>
+          <li><a class="nav-link" href="#projects" data-i18n="nav.projects">Projects</a></li>
+          <li><a class="nav-link" href="#contact" data-i18n="nav.contact">Contact</a></li>
+          <li class="lang-switch-container">
+            <button id="langToggleBtn" class="premium-btn">EN</button>
+          </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
 
-      <div class="social-links">
-        <a href="https://twitter.com/dikenge_" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="https://www.facebook.com/dikenge" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/@_dikenge" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/edgar-almeida-dikenge-199330261/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <div class="social-links" id="headerSocials">
+        <!-- Injected via JS -->
       </div>
 
     </div>
@@ -63,351 +65,196 @@
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
 
-    <!-- ======= About Me ======= -->
-    <div class="about-me container">
+    <!-- About Me -->
+    <div class="about-me container glass-panel">
 
-      <div class="section-title">
-        <h2>About</h2>
-        <p>Know more about me</p>
+      <div class="section-title text-center">
+        <h2 data-i18n="about.title">About</h2>
+        <p data-i18n="about.subtitle">Know more about me</p>
       </div>
 
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/Edgar.jpeg" class="img-fluid" alt="">
+      <div class="row align-items-center mt-5">
+        <div class="col-lg-4 text-center mb-4 mb-lg-0">
+          <div class="profile-img-container">
+            <img src="assets/img/Edgar.jpeg" class="img-fluid profile-img" alt="Edgar A. Dikenge">
+          </div>
         </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>Software Engineer</h3>
-          <p class="fst-italic">
-            A teaching and technology enthusiast of all kinds.
+        <div class="col-lg-8 content">
+          <h3 data-i18n="about.role" class="mb-3 premium-h3">Software Engineer</h3>
+          <p class="fst-italic subtitle-desc" data-i18n="about.description_short">
+            A technology and teaching enthusiast in all its forms.
           </p>
-          <div class="row">
+          <div class="row pt-3">
             <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Github:</strong> <span> <a href="https://www.github.com/edgar3g"></a>Edgar3g</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Luanda, Angola</span></li>
+              <ul class="info-list">
+                <li><i class="bi bi-chevron-right"></i> <strong>Github:</strong> <span><a
+                      href="https://www.github.com/edgar3g" class="link-hover" target="_blank">Edgar3g</a></span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong data-i18n="about.label_city">City:</strong> <span
+                    data-i18n="about.city">Luanda, Angola</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong
+                    data-i18n="about.label_nationality">Nationality:</strong> <span
+                    data-i18n="about.nationality">Angolan</span></li>
               </ul>
             </div>
             <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Graduation</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Course:</strong> <span>Computar Science</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>dikengeofficial@gmail.com</span></li>
+              <ul class="info-list">
+                <li><i class="bi bi-chevron-right"></i> <strong data-i18n="about.label_degree">Degree:</strong> <span
+                    data-i18n="about.degree">Bachelor's Degree</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong data-i18n="about.label_course">Course:</strong> <span
+                    data-i18n="about.course">Computer Science</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span
+                    data-i18n="about.email">dikengeofficial@gmail.com</span></li>
               </ul>
             </div>
           </div>
-          <p>
-            Hello, <strong>I'm Edgar Dikenge</strong>, Computer Science student at <i>"Instituto Superior Politécnico Metropolitano de Angola."</i>
-            <br>
-         </p>
-         <p>Greetings! I am a code alchemist, passionate about bringing programs to life since
-         2020. Currently, I am forging my path as a tireless apprentice in the vast universe of Computer Science, navigating
-         through the challenges and opportunities offered by the Metropolitan Polytechnic Institute of Angola. <br/>
-         Independent software developer with proficiency in programming languages such as JS, Python, Java, and C/C++.
-         Proven experience in delivering innovative and effective solutions in various projects. Committed to achieving
-         technical excellence and oriented towards creatively solving problems. Capable of collaborating with remote
-         teams and adapting quickly to new technologies and challenges.</p>
+          <p data-i18n="about.bio" class="bio-text mt-3"></p>
+
+          <!-- Languages badges -->
+          <div class="mt-4">
+            <h5 class="mb-3 text-muted-small" data-i18n="about.languages_label">Languages</h5>
+            <div id="dynamicLanguages" class="d-flex flex-wrap gap-2">
+              <!-- Injected via JS -->
+            </div>
+          </div>
         </div>
       </div>
 
     </div><!-- End About Me -->
 
-
-    <!-- ======= Skills  ======= -->
-    <div class="skills container">
-
-      <div class="section-title">
-        <h2>Skills</h2>
+    <!-- Skills -->
+    <div class="skills container glass-panel mt-4">
+      <div class="section-title text-center">
+        <h2 data-i18n="about.skills_title">Skills</h2>
       </div>
 
-      <div class="row skills-content">
-
-        <div class="col-lg-6">
-
-          <div class="progress">
-            <span class="skill">HTML <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">CSS <i class="val">35%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">JavaScript/Typescript<i class="val">60%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Spring Boot<i class="val">45%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Vue / Nuxtjs<i class="val">40%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div><div class="progress">
-            <span class="skill">NestJS<i class="val">45%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-
-          <div class="progress">
-            <span class="skill">C/C++<i class="val">55%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Java <i class="val">60%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Django <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Python <i class="val">85%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Docker <i class="val">45%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-              <span class="skill">Microservices<i class="val">49%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="49" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-
-
-        </div>
-
-
-        </div>
-
+      <!-- Hard Skills -->
+      <div class="row skills-content pt-4" id="dynamicSkills">
+        <!-- Injected via JS -->
       </div>
 
+      <!-- Soft Skills + Tech Tags -->
+      <div class="row mt-4">
+        <div class="col-lg-6">
+          <h5 class="resume-title text-gradient mb-3" data-i18n="about.soft_skills_title">Soft Skills</h5>
+          <div id="dynamicSoftSkills" class="d-flex flex-wrap gap-2">
+            <!-- Injected via JS -->
+          </div>
+        </div>
+        <div class="col-lg-6 mt-4 mt-lg-0">
+          <h5 class="resume-title text-gradient mb-3" data-i18n="about.tech_stack_title">Tech Stack</h5>
+          <div id="dynamicTechStack" class="d-flex flex-wrap gap-2">
+            <!-- Injected via JS -->
+          </div>
+        </div>
+      </div>
     </div><!-- End Skills -->
-
-    <!-- ======= Interests =======
-    <div class="interests container">
-
-      <div class="section-title">
-        <h2>Interests</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-          <div class="icon-box">
-            <i class="ri-store-line" style="color: #ffbb2c;"></i>
-            <h3>Lorem Ipsum</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-            <h3>Dolor Sitema</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-            <h3>Sed perspiciatis</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-            <h3>Magni Dolores</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-database-2-line" style="color: #47aeff;"></i>
-            <h3>Nemo Enim</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-            <h3>Eiusmod Tempor</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-            <h3>Midela Teren</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-            <h3>Pira Neve</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-anchor-line" style="color: #b2904f;"></i>
-            <h3>Dirada Pack</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-disc-line" style="color: #b20969;"></i>
-            <h3>Moton Ideal</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-base-station-line" style="color: #ff5828;"></i>
-            <h3>Verdo Park</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-            <h3>Flavor Nivelanda</h3>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  -->
 
   </section><!-- End About Section -->
 
   <!-- ======= Resume Section ======= -->
   <section id="resume" class="resume">
-    <div class="container">
+    <div class="container glass-panel">
 
-      <div class="section-title">
-        <h2>Resume</h2>
-        <p>Check My Resume</p>
+      <div class="section-title text-center">
+        <h2 data-i18n="resume.title">Resume</h2>
+        <p data-i18n="resume.subtitle">Check My Resume</p>
       </div>
-      <div class="resume-download-buttons">
-        <a href="assets/resume/eg_version_cv.pdf" class="btn btn-success" download>
-          Download Resume (English)
+      <div class="resume-download-buttons text-center mt-4">
+        <a href="assets/resume/eg_version_cv.pdf" class="btn premium-outline-btn me-2" download
+          data-i18n="resume.download_en">
+          Download CV (English)
         </a>
-        <a href="assets/resume/pt_version_cv.pdf" class="btn btn-success" download>
-          Download Resume (Português)
+        <a href="assets/resume/pt_version_cv.pdf" class="btn premium-outline-btn" download
+          data-i18n="resume.download_pt">
+          Download CV (Portuguese)
         </a>
       </div>
 
-      <div class="row">
+      <div class="row mt-5">
         <div class="col-lg-6">
-          <h3 class="resume-title">Sumary</h3>
+          <h3 class="resume-title text-gradient" data-i18n="resume.summary_title">Summary</h3>
           <div class="resume-item pb-0">
-            <h4>ADMIN AND Co-Founder</h4>
-            <p><em>I am the Adm of one of the best developer communities in Angola,<a href="https://chat.whatsapp.com/JKirIC0g88n6PfOkR6cr3t"><strong>"DEV'S.AO"</strong></a> </em></p>
-            <p>And I'm the co-founder of <strong>"IDC-IMETRO DEV CLUB"</strong>. An university student center at IMETRO, which has helped several students to grow in their professional careers in order to become experts in their target field.</p>
-
+            <h4 data-i18n="resume.summary_item_title">ADMIN &amp; Co-Founder</h4>
+            <p><em data-i18n="resume.summary_desc_1">I am the Admin of one of the best developer communities in Angola,
+                DEV'S.AO</em></p>
+            <p data-i18n="resume.summary_desc_2">And I'm the co-founder of IDC-IMETRO DEV CLUB...</p>
           </div>
 
-          <h3 class="resume-title">Education</h3>
-          <div class="resume-item">
-            <h4>Degree in Computer Science</h4>
-            <h5>2022 - Corrent</h5>
-            <p><em>Morro Bento II, Luanda, Angola.</em></p>
-            <p>Currently a 3rd year student of the Computer Science course at <strong>"Imetro - Instituto Superior Politécnico Metropolitano de Angola"</strong>.</p>
-          </div>
-          <div class="resume-item">
-            <h4>IT technician</h4>
-            <h5>2018 - 2022</h5>
-            <p><em>Maianga, Luanda, Angola.</em></p>
-            <p>Graduated from <strong>Instituto Medio Politecnico Alda Lara</strong>, in the IT technician course</p>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <h3 class="resume-title">Professional Experience</h3>
-          <div class="resume-item">
-            <h4>Software Developer</h4>
-            <h5>2024 - Present</h5>
-            <p><em>Cinapse SA, Luanda, Angola.</em></p>
-            <p>
-            <ul>
-              <li>Developer of robust applications with the best software development tools and techniques.</li>
-            </ul>
-            </p>
-          </div>
-          <div class="resume-item">
-            <h4>Freelancer</h4>
-            <h5>2023 - Present</h5>
-            <p><em>Luanda, Angola</em></p>
-            <p>
-            <ul>
-              <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-              <li>what i can do for you: <em>Landing page, WebSite, CMS, Management Systems, <a>All you can Dream</a>.</em></li>
-              <li>Created 4 + projects for personal clients, to help them manage their businesses.</li>
-            </ul>
-            </p>
+          <h3 class="resume-title text-gradient mt-4" data-i18n="resume.education_title">Education</h3>
+          <div id="dynamicEducation">
+            <!-- Injected via JS -->
           </div>
         </div>
 
+        <div class="col-lg-6 mt-4 mt-lg-0">
+          <h3 class="resume-title text-gradient" data-i18n="resume.experience_title">Professional Experience</h3>
+          <div id="dynamicExperience">
+            <!-- Injected via JS -->
+          </div>
+        </div>
       </div>
 
     </div>
   </section><!-- End Resume Section -->
 
-  <!-- ======= Contact Section ======= -->
-  <section id="contact" class="contact">
-    <div class="container">
+  <!-- ======= Projects Section ======= -->
+  <section id="projects" class="projects">
+    <div class="container glass-panel">
 
-      <div class="section-title">
-        <h2>Contact</h2>
-        <p>Contact Me</p>
+      <div class="section-title text-center">
+        <h2 data-i18n="projects.title">Projects</h2>
+        <p data-i18n="projects.subtitle">What I've Built</p>
       </div>
 
-      <div class="row mt-2">
+      <div class="row mt-5" id="dynamicProjects">
+        <!-- Injected via JS -->
+      </div>
 
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
+    </div>
+  </section><!-- End Projects Section -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container glass-panel">
+
+      <div class="section-title text-center">
+        <h2 data-i18n="contact.title">Contact</h2>
+        <p data-i18n="contact.subtitle">Contact Me</p>
+      </div>
+
+      <div class="row mt-5">
+
+        <div class="col-md-6 d-flex align-items-stretch mb-4">
+          <div class="info-box glass-card w-100">
             <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>Gamek, Luanda, Angola</p>
+            <h3 data-i18n="contact.address_title">My Address</h3>
+            <p id="contactAddress">Luanda, Angola</p>
           </div>
         </div>
 
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-          <div class="info-box">
+        <div class="col-md-6 d-flex align-items-stretch mb-4">
+          <div class="info-box glass-card w-100">
             <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
-            <div class="social-links">
-              <a href="https://twitter.com/dikenge_" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="https://www.facebook.com/dikenge" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/@_dikenge" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/edgar-almeida-dikenge-199330261/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <h3 data-i18n="contact.social_title">Social Profiles</h3>
+            <div class="social-links mt-3" id="contactSocials">
+              <!-- Injected via JS -->
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
+        <div class="col-md-6 d-flex align-items-stretch mb-4 mb-md-0">
+          <div class="info-box glass-card w-100">
             <i class="bx bx-envelope"></i>
-            <h3>Email Me</h3>
-            <p>dikengeofficial@gmail.com</p>
+            <h3 data-i18n="contact.email_title">Email Me</h3>
+            <p id="contactEmail">dikengeofficial@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box glass-card w-100">
+            <i class="bx bx-phone"></i>
+            <h3>Whatsapp</h3>
+            <p id="contactPhone">+244 940570575</p>
           </div>
         </div>
 
@@ -416,14 +263,6 @@
     </div>
   </section><!-- End Contact Section -->
 
-  <div class="credits">
-    <!-- All the links in the footer should remain intact. -->
-    <!-- You can delete the links only if you purchased the pro version. -->
-    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-  </div>
-
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -431,7 +270,162 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Inline site data — works on file:// and http:// -->
+  <script>
+    window.SITE_DATA = {
+      "pt": {
+        "nav": { "home": "Início", "about": "Sobre", "resume": "Currículo", "projects": "Projetos", "contact": "Contacto" },
+        "header": {
+          "name": "Edgar A. Dikenge",
+          "title_prefix": "Sou um",
+          "title_highlight": "Desenvolvedor de Software",
+          "title_suffix": "apaixonado de Luanda."
+        },
+        "about": {
+          "title": "Sobre", "subtitle": "Saiba mais sobre mim",
+          "role": "Engenheiro de Software",
+          "description_short": "Entusiasta de tecnologia e ensino em todas as suas formas.",
+          "label_city": "Cidade:", "city": "Luanda, Angola",
+          "label_nationality": "Nacionalidade:", "nationality": "Angolana",
+          "label_degree": "Grau:", "degree": "Licenciatura",
+          "label_course": "Curso:", "course": "Ciências da Computação",
+          "email": "dikengeofficial@gmail.com",
+          "bio": "Engenheiro de Software com experiência desde 2020 no desenvolvimento de soluções digitais robustas, com foco em performance, escalabilidade e boas práticas. Trabalha com TypeScript, Python, Java e C/C++, desenvolvendo APIs, microsserviços e integrações backend. Forte capacidade de liderança, autonomia e alinhamento entre tecnologia e negócio.",
+          "languages_label": "Idiomas",
+          "skills_title": "Skills",
+          "soft_skills_title": "Soft Skills",
+          "tech_stack_title": "Stack Tecnológico"
+        },
+        "resume": {
+          "title": "Currículo", "subtitle": "Confira meu percurso",
+          "download_en": "Baixar CV (Inglês)", "download_pt": "Baixar CV (Português)",
+          "summary_title": "Resumo", "education_title": "Educação", "experience_title": "Experiência",
+          "summary_item_title": "ADMIN e Co-Fundador",
+          "summary_desc_1": "Administrador de uma das maiores comunidades de devs em Angola — DEV'S.AO",
+          "summary_desc_2": "Co-fundador do IDC - IMETRO DEV CLUB, núcleo universitário que apoia estudantes a crescerem na carreira tech."
+        },
+        "projects": { "title": "Projetos", "subtitle": "O que Construí" },
+        "contact": {
+          "title": "Contacto", "subtitle": "Fale Comigo",
+          "address_title": "Endereço", "social_title": "Redes Sociais", "email_title": "Email"
+        },
+        "personal_info": {
+          "phone": "+244 940570575", "email": "dikengeofficial@gmail.com",
+          "website": "https://edgar3g.github.io/edgar3g/",
+          "linkedin": "https://ao.linkedin.com/in/edgar-almeida-dikenge-199330261",
+          "whatsapp": "940570575",
+          "address": "Gamek à Directa, Camama, Luanda, Angola"
+        },
+        "professional_experience": [
+          { "role": "Desenvolvedor de Software / Tech Lead", "company": "Cinapse SA", "location": "Luanda, Angola", "period": "Mai 2024 – Atual", "description": "Liderança técnica da equipa backend em Java/Spring Boot, foco em arquitetura sólida, code review e alinhamento com necessidades do cliente." },
+          { "role": "Desenvolvedor Backend", "company": "Mountain Light Business", "location": "Luanda, Angola", "period": "Fev 2025 – Atual", "description": "Desenvolvimento backend com TypeScript (Nest.js), construção de APIs escaláveis, microsserviços e contribuição na arquitetura de sistemas." },
+          { "role": "Desenvolvedor de Software Jr.", "company": "Znattech", "location": "Luanda, Angola", "period": "2021 – 2022", "description": "Desenvolvimento com Vue.js, Django e Odoo. Criação de interfaces dinâmicas em equipa ágil com entregas de alta qualidade." },
+          { "role": "Desenvolvedor Freelancer", "company": "Freelancer", "location": "Angola", "period": "2020 – Atual", "description": "Soluções multifacetadas com autonomia total: Landing Pages, Sistemas de Gestão, APIs e mais, utilizando TypeScript, Python, Java e C/C++." }
+        ],
+        "education": [
+          { "degree": "Ciências da Computação", "institution": "Instituto Superior Politécnico Metropolitano de Angola", "period": "2022 – Atual", "description": "3º ano. Foco em Engenharia de Software, Estruturas de Dados e Sistemas Distribuídos." },
+          { "degree": "Técnico de Informática", "institution": "Instituto Médio Politécnico Alda Lara", "period": "2018 – 2022", "description": "Ensino médio técnico em Informática e Programação." }
+        ],
+        "skills": [
+          { "name": "TypeScript / JavaScript", "level": 88 },
+          { "name": "Java & Spring Boot", "level": 82 },
+          { "name": "Python & Django", "level": 85 },
+          { "name": "NestJS", "level": 80 },
+          { "name": "C / C++", "level": 65 },
+          { "name": "Docker & Kubernetes", "level": 75 },
+          { "name": "Vue.js & Nuxt", "level": 60 },
+          { "name": "Bases de Dados (SQL/NoSQL)", "level": 80 }
+        ],
+        "soft_skills": ["Resolução de Problemas Complexos", "Liderança de Equipa", "Comunicação Estratégica", "Gestão de Tempo & Prioridades"],
+        "tech_stack": ["PostgreSQL", "MongoDB", "Redis", "Kafka", "RabbitMQ", "Docker", "Kubernetes", "GitHub Actions", "gRPC", "GraphQL", "MinIO", "Linux"],
+        "languages": [
+          { "name": "Português", "level": "Nativo" },
+          { "name": "Inglês", "level": "B1 / B2" }
+        ],
+        "projects": [
+          { "name": "IMETRO DEV CLUB — IDC", "period": "Mar 2024 – Atual", "description": "Co-fundador de um núcleo universitário que ajuda estudantes a desenvolver competências tech e a crescer profissionalmente.", "link": "https://www.linkedin.com/events/7183109295977222144/about/" },
+          { "name": "DEV'S.AO Community", "period": "2022 – Atual", "description": "Administrador de uma das maiores comunidades de desenvolvedores em Angola, reunindo centenas de profissionais e estudantes.", "link": "https://chat.whatsapp.com/JKirIC0g88n6PfOkR6cr3t" },
+          { "name": "Todos Podem Codar", "period": "Jan – Mai 2023", "description": "Projeto de ensino de programação para estudantes de nível básico, com materiais e mentoria gratuitos.", "link": null }
+        ]
+      },
+      "en": {
+        "nav": { "home": "Home", "about": "About", "resume": "Resume", "projects": "Projects", "contact": "Contact" },
+        "header": {
+          "name": "Edgar A. Dikenge",
+          "title_prefix": "I'm a passionate",
+          "title_highlight": "Software Developer",
+          "title_suffix": "from Luanda."
+        },
+        "about": {
+          "title": "About", "subtitle": "Know more about me",
+          "role": "Software Engineer",
+          "description_short": "A technology and teaching enthusiast in all its forms.",
+          "label_city": "City:", "city": "Luanda, Angola",
+          "label_nationality": "Nationality:", "nationality": "Angolan",
+          "label_degree": "Degree:", "degree": "Bachelor's Degree",
+          "label_course": "Course:", "course": "Computer Science",
+          "email": "dikengeofficial@gmail.com",
+          "bio": "Software Engineer with experience since 2020 building robust digital solutions, focused on performance, scalability and best practices. Works with TypeScript, Python, Java and C/C++, developing APIs, microservices and backend integrations. Strong leadership skills, autonomy and alignment between technology and business.",
+          "languages_label": "Languages",
+          "skills_title": "Skills",
+          "soft_skills_title": "Soft Skills",
+          "tech_stack_title": "Tech Stack"
+        },
+        "resume": {
+          "title": "Resume", "subtitle": "Check My Resume",
+          "download_en": "Download CV (English)", "download_pt": "Download CV (Portuguese)",
+          "summary_title": "Summary", "education_title": "Education", "experience_title": "Experience",
+          "summary_item_title": "ADMIN & Co-Founder",
+          "summary_desc_1": "Admin of one of the biggest developer communities in Angola — DEV'S.AO",
+          "summary_desc_2": "Co-founder of IDC - IMETRO DEV CLUB, a university tech center helping students grow in their professional careers."
+        },
+        "projects": { "title": "Projects", "subtitle": "What I've Built" },
+        "contact": {
+          "title": "Contact", "subtitle": "Contact Me",
+          "address_title": "My Address", "social_title": "Social Profiles", "email_title": "Email Me"
+        },
+        "personal_info": {
+          "phone": "+244 940570575", "email": "dikengeofficial@gmail.com",
+          "website": "https://edgar3g.github.io/edgar3g/",
+          "linkedin": "https://ao.linkedin.com/in/edgar-almeida-dikenge-199330261",
+          "whatsapp": "940570575",
+          "address": "Gamek à Directa, Camama, Luanda, Angola"
+        },
+        "professional_experience": [
+          { "role": "Software Developer / Tech Lead", "company": "Cinapse SA", "location": "Luanda, Angola", "period": "May 2024 – Present", "description": "Technical leadership of the backend team in Java/Spring Boot, focused on solid architecture, code review and client alignment." },
+          { "role": "Backend Developer", "company": "Mountain Light Business", "location": "Luanda, Angola", "period": "Feb 2025 – Present", "description": "Backend development with TypeScript (Nest.js), building scalable APIs, microservices and contributing to system architecture." },
+          { "role": "Jr. Software Developer", "company": "Znattech", "location": "Luanda, Angola", "period": "2021 – 2022", "description": "Development with Vue.js, Django and Odoo. Created dynamic interfaces in an agile team delivering high-quality solutions." },
+          { "role": "Freelance Developer", "company": "Freelancer", "location": "Angola", "period": "2020 – Present", "description": "Multifaceted solutions with full autonomy: Landing Pages, Management Systems, APIs and more in TypeScript, Python, Java and C/C++." }
+        ],
+        "education": [
+          { "degree": "Computer Science", "institution": "Instituto Superior Politécnico Metropolitano de Angola", "period": "2022 – Present", "description": "3rd year. Focus on Software Engineering, Data Structures and Distributed Systems." },
+          { "degree": "IT Technician", "institution": "Instituto Médio Politécnico Alda Lara", "period": "2018 – 2022", "description": "Technical high school degree in Informatics and Programming." }
+        ],
+        "skills": [
+          { "name": "TypeScript / JavaScript", "level": 88 },
+          { "name": "Java & Spring Boot", "level": 82 },
+          { "name": "Python & Django", "level": 85 },
+          { "name": "NestJS", "level": 80 },
+          { "name": "C / C++", "level": 65 },
+          { "name": "Docker & Kubernetes", "level": 75 },
+          { "name": "Vue.js & Nuxt", "level": 60 },
+          { "name": "Databases (SQL/NoSQL)", "level": 80 }
+        ],
+        "soft_skills": ["Complex Problem Solving", "Team Leadership", "Strategic Communication", "Time & Priority Management"],
+        "tech_stack": ["PostgreSQL", "MongoDB", "Redis", "Kafka", "RabbitMQ", "Docker", "Kubernetes", "GitHub Actions", "gRPC", "GraphQL", "MinIO", "Linux"],
+        "languages": [
+          { "name": "Portuguese", "level": "Native" },
+          { "name": "English", "level": "B2" }
+        ],
+        "projects": [
+          { "name": "IMETRO DEV CLUB — IDC", "period": "Mar 2024 – Present", "description": "Co-founder of a university tech club that helps students develop tech skills and grow professionally.", "link": "https://www.linkedin.com/events/7183109295977222144/about/" },
+          { "name": "DEV'S.AO Community", "period": "2022 – Present", "description": "Admin of one of the largest developer communities in Angola, bringing together hundreds of professionals and students.", "link": "https://chat.whatsapp.com/JKirIC0g88n6PfOkR6cr3t" },
+          { "name": "Todos Podem Codar", "period": "Jan – May 2023", "description": "A programming education initiative for beginner students, with free materials and mentorship.", "link": null }
+        ]
+      }
+    };
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

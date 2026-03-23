@@ -249,4 +249,157 @@
    */
   new PureCounter();
 
+  /**
+   * i18n — data is embedded inline via window.SITE_DATA (no fetch needed)
+   */
+  let currentLang = localStorage.getItem('lang') || 'pt';
+
+  const updateText = (element, key, data) => {
+    const keys = key.split('.');
+    let value = data;
+    for (const k of keys) {
+      if (value == null || value[k] === undefined) return;
+      value = value[k];
+    }
+    element.innerHTML = value;
+  };
+
+  const tag = (text, cls = 'tag-default') =>
+    `<span class="${cls}">${text}</span>`;
+
+  const renderContent = (lang) => {
+    const siteData = window.SITE_DATA;
+    if (!siteData || !siteData[lang]) return;
+    const data = siteData[lang];
+
+    // Static text nodes via data-i18n
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      updateText(el, el.getAttribute('data-i18n'), data);
+    });
+
+    // ── Skills progress bars ──────────────────────────────
+    const skillsContainer = document.getElementById('dynamicSkills');
+    if (skillsContainer && data.skills) {
+      skillsContainer.innerHTML = '';
+      const half = Math.ceil(data.skills.length / 2);
+      const col1 = document.createElement('div'); col1.className = 'col-lg-6';
+      const col2 = document.createElement('div'); col2.className = 'col-lg-6';
+
+      data.skills.forEach((skill, i) => {
+        const html = `
+          <div class="progress">
+            <span class="skill">${skill.name} <i class="val">${skill.level}%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar"
+                aria-valuenow="${skill.level}" aria-valuemin="0" aria-valuemax="100"
+                style="width:${skill.level}%"></div>
+            </div>
+          </div>`;
+        (i < half ? col1 : col2).innerHTML += html;
+      });
+      skillsContainer.appendChild(col1);
+      skillsContainer.appendChild(col2);
+    }
+
+    // ── Soft Skills tags ──────────────────────────────────
+    const softEl = document.getElementById('dynamicSoftSkills');
+    if (softEl && data.soft_skills) {
+      softEl.innerHTML = data.soft_skills.map(s => tag(s, 'tag-soft')).join('');
+    }
+
+    // ── Tech Stack tags ───────────────────────────────────
+    const stackEl = document.getElementById('dynamicTechStack');
+    if (stackEl && data.tech_stack) {
+      stackEl.innerHTML = data.tech_stack.map(s => tag(s, 'tag-tech')).join('');
+    }
+
+    // ── Language badges ───────────────────────────────────
+    const langEl = document.getElementById('dynamicLanguages');
+    if (langEl && data.languages) {
+      langEl.innerHTML = data.languages.map(l =>
+        `<span class="lang-badge"><strong>${l.name}</strong> <em>${l.level}</em></span>`
+      ).join('');
+    }
+
+    // ── Education ─────────────────────────────────────────
+    const eduEl = document.getElementById('dynamicEducation');
+    if (eduEl && data.education) {
+      eduEl.innerHTML = data.education.map(e => `
+        <div class="resume-item">
+          <h4>${e.degree}</h4>
+          <h5>${e.period}</h5>
+          <p><em>${e.institution}</em></p>
+          <p>${e.description}</p>
+        </div>`).join('');
+    }
+
+    // ── Professional Experience ───────────────────────────
+    const expEl = document.getElementById('dynamicExperience');
+    if (expEl && data.professional_experience) {
+      expEl.innerHTML = data.professional_experience.map(e => `
+        <div class="resume-item">
+          <h4>${e.role}</h4>
+          <h5>${e.period}</h5>
+          <p><em>${e.company} — ${e.location}</em></p>
+          <p>${e.description}</p>
+        </div>`).join('');
+    }
+
+    // ── Projects ──────────────────────────────────────────
+    const projEl = document.getElementById('dynamicProjects');
+    if (projEl && data.projects) {
+      projEl.innerHTML = data.projects.map(p => `
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="project-card glass-card h-100">
+            <div class="project-card-body">
+              <h4 class="project-title">${p.name}</h4>
+              <span class="project-period">${p.period}</span>
+              <p class="project-desc">${p.description}</p>
+            </div>
+            ${p.link ? `<div class="project-card-footer">
+              <a href="${p.link}" target="_blank" class="project-link">
+                <i class="bi bi-box-arrow-up-right me-1"></i>Ver mais
+              </a>
+            </div>` : ''}
+          </div>
+        </div>`).join('');
+    }
+
+    // ── Contact Details ───────────────────────────────────
+    if (data.personal_info) {
+      const pi = data.personal_info;
+      const el = (id) => document.getElementById(id);
+      if (el('contactAddress')) el('contactAddress').textContent = pi.address;
+      if (el('contactEmail'))   el('contactEmail').textContent   = pi.email;
+      if (el('contactPhone'))   el('contactPhone').textContent   = pi.phone;
+
+      const socials = `
+        <a href="${pi.linkedin}" target="_blank" class="linkedin btn-social"><i class="bi bi-linkedin"></i></a>
+        <a href="https://wa.me/${pi.whatsapp}" target="_blank" class="whatsapp btn-social"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://github.com/edgar3g" target="_blank" class="github btn-social"><i class="bi bi-github"></i></a>
+        <a href="${pi.website}" target="_blank" class="website btn-social"><i class="bi bi-globe"></i></a>`;
+      ['headerSocials', 'contactSocials'].forEach(id => {
+        if (el(id)) el(id).innerHTML = socials;
+      });
+    }
+
+    // ── Toggle button label ───────────────────────────────
+    const btn = document.getElementById('langToggleBtn');
+    if (btn) btn.textContent = lang === 'pt' ? 'EN' : 'PT';
+  };
+
+  // Language switch
+  const langBtn = document.getElementById('langToggleBtn');
+  if (langBtn) {
+    langBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      currentLang = currentLang === 'pt' ? 'en' : 'pt';
+      localStorage.setItem('lang', currentLang);
+      renderContent(currentLang);
+    });
+  }
+
+  // Initial render — SITE_DATA is already available synchronously
+  renderContent(currentLang);
+
 })()
