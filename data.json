@@ -27,7 +27,7 @@
       "label_course": "Curso:",
       "course": "Ciências da Computação",
       "email": "dikengeofficial@gmail.com",
-      "bio": "Engenheiro de Software com experiência desde 2020 no desenvolvimento de soluções digitais robustas, com foco em performance, escalabilidade e boas práticas. Atua com TypeScript, Python, Java e C/C++, desenvolvendo APIs, microsserviços e integrações backend. Forte capacidade de liderança, autonomia e alinhamento entre tecnologia e negócio.",
+      "bio": "Engenheiro de Software Backend com +5 anos de experiência a conceber e entregar sistemas de alto desempenho, escaláveis e prontos para produção. Especializado em Java/Spring Boot, TypeScript/NestJS e Python, com domínio de arquiteturas de microsserviços, APIs RESTful, gRPC e integração de mensageria (Kafka, RabbitMQ). Tech Lead na Cinapse SA, responsável por decisões técnicas, code reviews e alinhamento com stakeholders de negócio. Comprometido com clean code, testes automatizados e entrega contínua (CI/CD). Disponível para oportunidades remotas e globais.",
       "languages_label": "Idiomas",
       "skills_title": "Skills",
       "soft_skills_title": "Soft Skills",
@@ -72,28 +72,28 @@
         "company": "Cinapse SA",
         "location": "Luanda, Angola",
         "period": "Mai 2024 – Atual",
-        "description": "Liderança técnica da equipa backend em Java/Spring Boot, foco em arquitetura sólida, code review e alinhamento com necessidades do cliente."
+        "description": "Liderança técnica de equipa backend em Java/Spring Boot. Responsável pela arquitetura de microsserviços, definição de padrões de código, code reviews e entrega de soluções enterprise-grade alinhadas com requisitos de negócio e stakeholders."
       },
       {
         "role": "Desenvolvedor Backend",
         "company": "Mountain Light Business",
         "location": "Luanda, Angola",
         "period": "Fev 2025 – Atual",
-        "description": "Desenvolvimento backend com TypeScript (Nest.js), construção de APIs escaláveis, microsserviços e contribuição na arquitetura de sistemas."
+        "description": "Desenvolvimento de APIs RESTful e microsserviços de alta disponibilidade com TypeScript/NestJS. Contribuição activa na definição de arquitetura de sistemas, integração de bases de dados (PostgreSQL, MongoDB) e estratégias de deployment com Docker."
       },
       {
         "role": "Desenvolvedor de Software Jr.",
         "company": "Znattech",
         "location": "Luanda, Angola",
         "period": "2021 – 2022",
-        "description": "Desenvolvimento com Vue.js, Django e Odoo. Criação de interfaces dinâmicas em equipa ágil com entregas de alta qualidade."
+        "description": "Desenvolvimento full-stack com Vue.js, Django e Odoo em metodologia ágil. Participação em entregas iterativas, integração com APIs externas e mentoria de pares júnior."
       },
       {
         "role": "Desenvolvedor Freelancer",
         "company": "Freelancer",
         "location": "Angola",
         "period": "2020 – Atual",
-        "description": "Soluções multifacetadas com autonomia total: Landing Pages, Sistemas de Gestão, APIs e mais, utilizando TypeScript, Python, Java e C/C++."
+        "description": "Concepção e entrega de soluções end-to-end: Landing Pages, Sistemas de Gestão, APIs e automações. Stack variada (TypeScript, Python, Java, C/C++) com foco em qualidade, prazo e satisfação do cliente."
       }
     ],
     "education": [
@@ -183,7 +183,7 @@
       "label_course": "Course:",
       "course": "Computer Science",
       "email": "dikengeofficial@gmail.com",
-      "bio": "Software Engineer with experience since 2020 building robust digital solutions, focused on performance, scalability and best practices. Works with TypeScript, Python, Java and C/C++, developing APIs, microservices and backend integrations. Strong leadership skills, autonomy and alignment between technology and business.",
+      "bio": "Backend Software Engineer with 5+ years of experience designing and delivering production-grade, high-availability systems. Specializes in Java/Spring Boot, TypeScript/NestJS and Python, with deep expertise in microservices architecture, RESTful APIs, gRPC and event-driven integration (Kafka, RabbitMQ). Tech Lead at Cinapse SA, driving technical decisions, code quality standards and stakeholder alignment. Proven track record of delivering scalable enterprise software under tight timelines. Committed to clean code, automated testing and continuous delivery. Open to global remote opportunities.",
       "languages_label": "Languages",
       "skills_title": "Skills",
       "soft_skills_title": "Soft Skills",
@@ -228,21 +228,21 @@
         "company": "Cinapse SA",
         "location": "Luanda, Angola",
         "period": "May 2024 – Present",
-        "description": "Technical leadership of the backend team in Java/Spring Boot, focused on solid architecture, code review and client alignment."
+        "description": "Technical leadership of backend team in Java/Spring Boot. Responsible for microservices architecture, coding standards, code reviews and delivery of enterprise-grade solutions aligned with business requirements and key stakeholders."
       },
       {
         "role": "Backend Developer",
         "company": "Mountain Light Business",
         "location": "Luanda, Angola",
         "period": "Feb 2025 – Present",
-        "description": "Backend development with TypeScript (Nest.js), building scalable APIs, microservices and contributing to system architecture."
+        "description": "Design and delivery of high-availability RESTful APIs and microservices with TypeScript/NestJS. Active contribution to system architecture, database integration (PostgreSQL, MongoDB) and Docker-based deployment strategies."
       },
       {
         "role": "Jr. Software Developer",
         "company": "Znattech",
         "location": "Luanda, Angola",
         "period": "2021 – 2022",
-        "description": "Development with Vue.js, Django and Odoo. Created dynamic interfaces in an agile team delivering high-quality solutions."
+        "description": "Full-stack development with Vue.js, Django and Odoo in an agile team. Delivered iterative features, integrated third-party APIs and mentored junior peers."
       },
       {
         "role": "Freelance Developer",

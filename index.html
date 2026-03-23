@@ -1,22 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt" prefix="og: https://ogp.me/ns#">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Dikenge Dev</title>
-  <meta content="Edgar Dikenge — Software Engineer from Luanda, Angola" name="description">
-  <meta content="Edgar Dikenge, Backend Developer, Angola, Dev'Ao" name="keywords">
+  <!-- ══ Primary SEO ══════════════════════════════════════════════ -->
+  <title>Edgar Dikenge | Backend Software Engineer · Java · Spring Boot · Angola</title>
+  <meta name="description" content="Backend Software Engineer com +5 anos a construir APIs de alto desempenho, microsserviços e sistemas enterprise em Java/Spring Boot, TypeScript/NestJS e Python. Tech Lead em Luanda, Angola. Disponível para oportunidades remotas e globais.">
+  <meta name="keywords" content="Software Engineer Angola, Backend Developer Luanda, Java Developer Angola, Spring Boot Developer, NestJS Developer, Python Engineer, Desenvolvedor de Software Angola, Microservices, REST API, Fintech Developer, Enterprise Software, Tech Lead Angola, Edgar Dikenge, Edgar Almeida Dikenge">
+  <meta name="author" content="Edgar A. Dikenge">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://edgar3g.github.io/edgar3g/">
 
-  <!-- Google Fonts -->
+  <!-- ══ Open Graph (LinkedIn, WhatsApp, Facebook) ════════════════ -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Edgar Dikenge | Backend Software Engineer · Java · NestJS · Angola">
+  <meta property="og:description" content="Backend Software Engineer com +5 anos a construir sistemas escaláveis em Java/Spring Boot, TypeScript e Python. Tech Lead, mentor e co-fundador do IMETRO DEV CLUB em Luanda, Angola.">
+  <meta property="og:url" content="https://edgar3g.github.io/edgar3g/">
+  <meta property="og:image" content="https://edgar3g.github.io/edgar3g/assets/img/Edgar.jpeg">
+  <meta property="og:image:alt" content="Edgar A. Dikenge — Backend Software Engineer">
+  <meta property="og:site_name" content="Edgar Dikenge · Portfolio">
+  <meta property="og:locale" content="pt_AO">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="profile:first_name" content="Edgar">
+  <meta property="profile:last_name" content="Dikenge">
+  <meta property="profile:username" content="edgar3g">
+
+  <!-- ══ Twitter / X Card ═════════════════════════════════════════ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dikenge_">
+  <meta name="twitter:creator" content="@dikenge_">
+  <meta name="twitter:title" content="Edgar Dikenge | Backend Software Engineer">
+  <meta name="twitter:description" content="Backend Software Engineer em Angola · Java · Spring Boot · NestJS · Docker · Kubernetes · Tech Lead">
+  <meta name="twitter:image" content="https://edgar3g.github.io/edgar3g/assets/img/Edgar.jpeg">
+
+  <!-- ══ JSON-LD Structured Data (Google / AI crawlers) ═══════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Edgar A. Dikenge",
+    "alternateName": "Edgar Dikenge",
+    "jobTitle": "Backend Software Engineer & Tech Lead",
+    "description": "Backend Software Engineer with 5+ years of experience designing and building production-grade APIs, microservices and enterprise software systems. Specializes in Java/Spring Boot, TypeScript/NestJS and Python. Tech Lead at Cinapse SA; co-founder of IMETRO DEV CLUB. Based in Luanda, Angola.",
+    "url": "https://edgar3g.github.io/edgar3g/",
+    "email": "dikengeofficial@gmail.com",
+    "telephone": "+244940570575",
+    "image": "https://edgar3g.github.io/edgar3g/assets/img/Edgar.jpeg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Luanda",
+      "addressCountry": "AO"
+    },
+    "nationality": {
+      "@type": "Country",
+      "name": "Angola"
+    },
+    "sameAs": [
+      "https://ao.linkedin.com/in/edgar-almeida-dikenge-199330261",
+      "https://github.com/edgar3g",
+      "https://twitter.com/dikenge_"
+    ],
+    "knowsAbout": [
+      "Java", "Spring Boot", "TypeScript", "NestJS", "Python", "Django",
+      "REST APIs", "GraphQL", "gRPC", "Microservices", "Docker", "Kubernetes",
+      "Kafka", "RabbitMQ", "PostgreSQL", "MongoDB", "Redis",
+      "Software Architecture", "Team Leadership", "Agile", "CI/CD",
+      "GitHub Actions", "Clean Code", "Design Patterns"
+    ],
+    "knowsLanguage": [
+      { "@type": "Language", "name": "Portuguese" },
+      { "@type": "Language", "name": "English" }
+    ],
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Instituto Superior Politécnico Metropolitano de Angola",
+        "alternateName": "IMETRO",
+        "address": { "@type": "PostalAddress", "addressLocality": "Luanda", "addressCountry": "AO" }
+      }
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Cinapse SA",
+      "address": { "@type": "PostalAddress", "addressLocality": "Luanda", "addressCountry": "AO" }
+    },
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Backend Software Engineer",
+      "occupationLocation": { "@type": "Country", "name": "Angola" },
+      "skills": "Java, Spring Boot, TypeScript, NestJS, Python, Docker, Kubernetes, Kafka, PostgreSQL, MongoDB"
+    }
+  }
+  </script>
+
+  <!-- ══ Google Fonts ═════════════════════════════════════════════ -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
+  <!-- ══ Vendor CSS ═══════════════════════════════════════════════ -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -24,8 +110,8 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css?v=2" rel="stylesheet">
+  <!-- ══ Main CSS ═════════════════════════════════════════════════ -->
+  <link href="assets/css/style.css?v=3" rel="stylesheet">
 </head>
 
 <body>
