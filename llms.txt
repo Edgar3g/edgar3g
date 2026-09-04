@@ -1,0 +1,46 @@
+# Edgar A. Dikenge
+
+Edgar A. Dikenge is a Software Engineer based in Luanda, Angola (WAT / UTC+1), specializing in pragmatic software architecture, API security, enterprise integrations, backend platforms, idempotent financial flows, and API-led architectures. He champions choosing software patterns based on real trade-offs: from well-bounded modular monoliths to BFF layers over legacy cores and event-driven architectures.
+
+In an era dominated by rapid AI development, Edgar emphasizes Security by Design (OAuth2/JWT authentication, input sanitization, data encryption, RBAC, signed webhooks, and OWASP compliance) as a mandatory foundation for all production software.
+
+Edgar currently serves as a Software Engineer at Nossa Seguros, designing secure BFF layers over legacy insurance core systems (Cleva) using MuleSoft, integration pipelines in Azure DevOps, and idempotent payment processing.
+
+## Contact & Links
+- Website: https://edgar3g.github.io/edgar3g/
+- GitHub: https://github.com/edgar3g
+- LinkedIn: https://www.linkedin.com/in/edgar-almeida-dikenge-199330261/
+- Email: dikengeofficial@gmail.com
+- WhatsApp: +244 940570575
+
+## Technical Surface & Stack
+- **Enterprise Integrations & Fintech:** MuleSoft (Anypoint Platform, API-Led), Cleva Insurance Platform, AppyPay (Multicaixa GPO Express), Stripe, Strapi CMS.
+- **Core Backend & Security:** Java 21 / Spring Boot 3, TypeScript / NestJS, Python (Django, Automation), OAuth2 / JWT / RBAC, REST APIs, gRPC, Apache Kafka, RabbitMQ.
+- **Persistence, Caching & Storage:** PostgreSQL, MongoDB, Redis (Cache & Session Store), MinIO (S3 Object Storage), Flyway Migrations, Prisma ORM.
+- **DevOps, Security & Quality:** Azure DevOps (CI/CD Pipelines), Docker, Kubernetes, Rancher Manager, Linux, SonarQube / OWASP Scanner, Integration Testing.
+
+## Professional Experience
+- **2026 – Present: Software Engineer @ Nossa Seguros**
+  Enterprise integrations over MuleSoft and Cleva Insurance Core, API security governance, financial gateway architecture, and Azure DevOps CI/CD pipelines.
+- **2024 – 2026: Software Developer / Tech Lead @ Cinapse SA**
+  Technical leadership of the backend engineering team using Java / Spring Boot and Angular, secure architecture design (modular monoliths & microservices when appropriate), coding standards, and security code reviews.
+- **2025 – Present: Backend Developer @ Mountain Light Business**
+  API design and backend service development with TypeScript / NestJS, PostgreSQL, MongoDB, and Docker.
+- **2024 – 2025: Systems & Payment Integration Consultant (Freelance) @ PITEU**
+  Integration of payment gateways (AppyPay / GPO Express) with management systems, ensuring strict security validation, idempotency, and transactional reliability.
+- **2021 – 2022: Jr. Software Developer @ Znattech**
+  Full-stack software development using Vue.js, Django, and Odoo, integrating third-party APIs in agile sprint cycles.
+- **2020 – Present: Freelance Developer @ Independent Projects**
+  Autonomous creation of web platforms, management systems, and REST APIs using TypeScript, Python, Java, and C/C++.
+
+## Academic Education & Mentorship
+- **2022 – Present: B.Sc. in Computer Science @ Instituto Superior Politécnico Metropolitano de Angola (IMETRO)**
+  Academic focus on Distributed Systems, Advanced Algorithms, Information Security, and Software Engineering.
+- **2018 – 2022: Computer Technician Degree @ Instituto Médio Politécnico Alda Lara (IMPAL)**
+  Solid technical foundation in programming, computer architecture, and networking.
+- **2020 – 2022: Programming Instructor & Mentor @ Formação de Quadros**
+  Taught programming logic and algorithms to young students, encouraging technical careers in software development.
+
+## Community & Leadership
+- **DEV'S.AO:** Administrator of Angola's national developer community.
+- **IMETRO DEV CLUB (IDC):** Co-founder of an academic student technology center offering workshops, mentorship, and technical acceleration.

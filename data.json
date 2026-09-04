@@ -1,313 +1,367 @@
 {
   "pt": {
-    "nav": {
-      "home": "Início",
-      "about": "Sobre",
-      "resume": "Currículo",
-      "projects": "Projetos",
-      "contact": "Contacto"
-    },
     "header": {
-      "name": "Edgar A. Dikenge",
-      "title_prefix": "Sou um",
-      "title_highlight": "Desenvolvedor de Software",
-      "title_suffix": "apaixonado de Luanda."
+      "status": "Software Engineer @ Nossa Seguros"
     },
-    "about": {
-      "title": "Sobre",
-      "subtitle": "Saiba mais sobre mim",
-      "role": "Engenheiro de Software",
-      "description_short": "Entusiasta de tecnologia e ensino em todas as suas formas.",
-      "label_city": "Cidade:",
-      "city": "Luanda, Angola",
-      "label_nationality": "Nacionalidade:",
-      "nationality": "Angolana",
-      "label_degree": "Grau:",
-      "degree": "Licenciatura",
-      "label_course": "Curso:",
-      "course": "Ciências da Computação",
-      "email": "dikengeofficial@gmail.com",
-      "bio": "Engenheiro de Software Backend com +5 anos de experiência a conceber e entregar sistemas de alto desempenho, escaláveis e prontos para produção. Especializado em Java/Spring Boot, TypeScript/NestJS e Python, com domínio de arquiteturas de microsserviços, APIs RESTful, gRPC e integração de mensageria (Kafka, RabbitMQ). Tech Lead na Cinapse SA, responsável por decisões técnicas, code reviews e alinhamento com stakeholders de negócio. Comprometido com clean code, testes automatizados e entrega contínua (CI/CD). Disponível para oportunidades remotas e globais.",
-      "languages_label": "Idiomas",
-      "skills_title": "Skills",
-      "soft_skills_title": "Soft Skills",
-      "tech_stack_title": "Stack Tecnológico"
+    "nav": {
+      "thesis": "01 // Tese",
+      "stack": "02 // Arquitetura & Stack",
+      "work": "03 // Casos de Estudo",
+      "trajectory": "04 // Trajetória & Formação",
+      "community": "05 // Comunidade"
     },
-    "resume": {
-      "title": "Currículo",
-      "subtitle": "Confira meu percurso",
-      "download_en": "Baixar CV (Inglês)",
-      "download_pt": "Baixar CV (Português)",
-      "summary_title": "Resumo",
-      "education_title": "Educação",
-      "experience_title": "Experiência",
-      "summary_item_title": "ADMIN e Co-Fundador",
-      "summary_desc_1": "Administrador de uma das maiores comunidades de devs em Angola — DEV'S.AO",
-      "summary_desc_2": "Co-fundador do IDC - IMETRO DEV CLUB, núcleo universitário que apoia estudantes a crescerem na carreira tech."
+    "hero": {
+      "title": "Arquitetura pragmática de software, integrações empresariais e sistemas seguros.",
+      "lede": "Construo sistemas corporativos de missão crítica: desde monólitos modulares bem delimitados a camadas BFF sobre legados, fluxos financeiros seguros e arquiteturas orientadas a eventos.",
+      "cta_work": "Ver casos de estudo",
+      "cv_pt": "CV PT",
+      "cv_en": "CV EN",
+      "availability": "OPEN TO GLOBAL WORK"
     },
-    "projects_section": {
-      "title": "Projetos",
-      "subtitle": "O que Construí"
+    "kpi": {
+      "years": "anos a entregar software em produção",
+      "insurance": "Integrações & Backend",
+      "core": "DevEx sobre core Cleva",
+      "community": "IDC + DEV'S.AO"
     },
-    "contact": {
-      "title": "Contacto",
-      "subtitle": "Fale Comigo",
-      "address_title": "Endereço",
-      "social_title": "Redes Sociais",
-      "email_title": "Email"
+    "thesis": {
+      "label": "ENGINEERING THESIS",
+      "title": "Software pragmático e seguro para o mundo real.",
+      "one_title": "Resiliência & Trade-offs",
+      "one": "Não existem soluções genéricas. Monólitos modulares, microsserviços ou BFFs são escolhidos com base em trade-offs reais, idempotência e custo operacional.",
+      "two_title": "Segurança & Conformidade por Desenho",
+      "two": "Numa era de automação e IA, a segurança não é um detalhe. Autenticação forte (OAuth2/JWT), encriptação, sanitização de dados e auditoria são premissas em cada API.",
+      "three_title": "Modernização sem Ruptura",
+      "three": "Camadas de BFF estabelecem uma fronteira de proteção entre interfaces ágeis e sistemas legados que não podem parar."
     },
-    "personal_info": {
-      "full_name": "Edgar A. Dikenge",
-      "nationality": "Angolana",
-      "phone": "+244 940570575",
-      "email": "dikengeofficial@gmail.com",
-      "website": "https://edgar3g.github.io/edgar3g/",
-      "linkedin": "https://ao.linkedin.com/in/edgar-almeida-dikenge-199330261",
-      "whatsapp": "940570575",
-      "address": "Gamek à Directa, Camama, Luanda, Angola"
+    "stack": {
+      "label": "SYSTEM MAP",
+      "title": "A minha superfície de engenharia."
     },
-    "professional_experience": [
+    "work": {
+      "label": "SELECTED WORK",
+      "title": "Casos que explicam o impacto."
+    },
+    "trajectory": {
+      "label": "CAREER & EDUCATION SIGNAL",
+      "title": "Experiência e formação construídas com rigor.",
+      "tab_exp": "Experiência Profissional",
+      "tab_edu": "Formação & Mentoria"
+    },
+    "community": {
+      "title": "Conhecimento só escala quando circula.",
+      "text": "Além de construir sistemas, ajudo a construir o ecossistema. Sou administrador da DEV'S.AO e co-fundador do IMETRO DEV CLUB."
+    },
+    "filters": {
+      "all": "Todos",
+      "enterprise": "Enterprise",
+      "fintech": "Fintech & Segurança",
+      "community": "Comunidade"
+    },
+    "stack_cards": [
       {
+        "title": "Enterprise Integrations & Fintech",
+        "items": ["MuleSoft / API-Led", "Cleva Insurance Platform", "AppyPay / GPO Express", "Stripe", "Strapi CMS"]
+      },
+      {
+        "title": "Core Backend & Security",
+        "items": ["Java 21 / Spring Boot 3", "TypeScript / NestJS", "Python", "OAuth2 / JWT / RBAC", "Kafka / RabbitMQ"]
+      },
+      {
+        "title": "Persistência, Cache & Armazenamento",
+        "items": ["PostgreSQL", "MongoDB", "Redis (Cache & Session)", "MinIO / S3", "Flyway / Prisma"]
+      },
+      {
+        "title": "DevOps, Segurança & Qualidade",
+        "items": ["Azure DevOps (CI/CD)", "Docker / Kubernetes", "Rancher / Linux", "SonarQube / OWASP", "Integration testing"]
+      }
+    ],
+    "projects": [
+      {
+        "category": "enterprise",
+        "name": "Insurtech Core BFF & API Security",
+        "description": "Camada BFF para desacoplar o core legado Cleva, padronizar permissões e servir aplicações internas com APIs REST protegidas.",
+        "stack": "MuleSoft · Cleva · OAuth2 · REST · Azure DevOps"
+      },
+      {
+        "category": "fintech",
+        "name": "Gateway de Pagamento Resiliente e Seguro",
+        "description": "Integração de pagamentos por referência e GPO Express com idempotência, assinatura de webhooks, conciliação e cifragem.",
+        "stack": "NestJS / Spring Boot · AppyPay · Stripe · Redis · Security"
+      },
+      {
+        "category": "enterprise",
+        "name": "Arquitetura Distribuída & Mensageria",
+        "description": "Fluxos assíncronos para comunicação desacoplada entre serviços de elevado tráfego, garantindo resiliência e observabilidade.",
+        "stack": "Java / Spring Boot · Kafka · RabbitMQ · Docker"
+      },
+      {
+        "category": "enterprise",
+        "name": "KoboFace ID & Biometria em Campo",
+        "description": "Lógica aplicada para identificação biométrica facial segura em ambientes de campo com conectividade limitada.",
+        "stack": "Python · KoboToolbox · Biometrics · Pipeline automation"
+      },
+      {
+        "category": "community",
+        "name": "DEV'S.AO & IMETRO DEV CLUB",
+        "description": "Administração de uma comunidade nacional de desenvolvedores e co-fundação de um núcleo académico de aceleração tecnológica.",
+        "stack": "Comunidade · Educação · Angola"
+      }
+    ],
+    "experience": [
+      {
+        "period": "2026 – Atual",
+        "role": "Software Engineer",
+        "level": "ESCOPO ATUAL",
+        "company": "Nossa Seguros",
+        "description": "Integrações corporativas com MuleSoft e Cleva, segurança de APIs, gateway financeiro e pipelines Azure DevOps.",
+        "signal": "Missão crítica · Integrações enterprise · Segurança & Backend"
+      },
+      {
+        "period": "2024 – 2026",
         "role": "Desenvolvedor de Software / Tech Lead",
+        "level": "LIDERANÇA TÉCNICA",
         "company": "Cinapse SA",
-        "location": "Luanda, Angola",
-        "period": "Mai 2024 – Atual",
-        "description": "Liderança técnica de equipa backend em Java/Spring Boot. Responsável pela arquitetura de microsserviços, definição de padrões de código, code reviews e entrega de soluções enterprise-grade alinhadas com requisitos de negócio e stakeholders."
+        "description": "Liderança técnica de backend em Java/Spring Boot, definição de arquiteturas seguras e pragmáticas, padrões de código e auditoria.",
+        "signal": "Arquitetura · Decisão técnica · Liderança"
       },
       {
+        "period": "2025 – Atual",
         "role": "Desenvolvedor Backend",
+        "level": "BACKEND OWNERSHIP",
         "company": "Mountain Light Business",
-        "location": "Luanda, Angola",
-        "period": "Fev 2025 – Atual",
-        "description": "Desenvolvimento de APIs RESTful e microsserviços de alta disponibilidade com TypeScript/NestJS. Contribuição activa na definição de arquitetura de sistemas, integração de bases de dados (PostgreSQL, MongoDB) e estratégias de deployment com Docker."
+        "description": "Desenvolvimento de APIs RESTful e serviços backend com TypeScript/NestJS, PostgreSQL, MongoDB e Docker.",
+        "signal": "APIs · Serviços Backend · Deployment"
       },
       {
-        "role": "Desenvolvedor de Software Jr.",
-        "company": "Znattech",
-        "location": "Luanda, Angola",
+        "period": "2024 – 2025",
+        "role": "Consultor de Integração de Sistemas & Pagamentos",
+        "level": "CONSULTORIA FREELANCE",
+        "company": "PITEU",
+        "description": "Integração entre plataformas de pagamento e sistemas de gestão internos com validação rigorosa de segurança e conciliação.",
+        "signal": "Gateways de Pagamento · Segurança Transacional · FinTech"
+      },
+      {
         "period": "2021 – 2022",
-        "description": "Desenvolvimento full-stack com Vue.js, Django e Odoo em metodologia ágil. Participação em entregas iterativas, integração com APIs externas e mentoria de pares júnior."
+        "role": "Desenvolvedor de Software Jr.",
+        "level": "PRIMEIRA EXPERIÊNCIA",
+        "company": "Znattech",
+        "description": "Desenvolvimento full-stack com Vue.js, Django e Odoo, integração de APIs externas e entregas iterativas em equipa ágil.",
+        "signal": "Full-stack · Entrega iterativa · Agilidade"
       },
       {
-        "role": "Desenvolvedor Freelancer",
-        "company": "Freelancer",
-        "location": "Angola",
         "period": "2020 – Atual",
-        "description": "Concepção e entrega de soluções end-to-end: Landing Pages, Sistemas de Gestão, APIs e automações. Stack variada (TypeScript, Python, Java, C/C++) com foco em qualidade, prazo e satisfação do cliente."
+        "role": "Desenvolvedor Freelancer",
+        "level": "BASE & AUTONOMIA",
+        "company": "Projetos independentes",
+        "description": "Construção autónoma de plataformas web, sistemas de gestão e APIs com TypeScript, Python, Java e C/C++.",
+        "signal": "Autonomia · Produtos digitais · Versatilidade"
       }
     ],
     "education": [
       {
-        "degree": "Ciências da Computação",
-        "institution": "Instituto Superior Politécnico Metropolitano de Angola",
         "period": "2022 – Atual",
-        "description": "3º ano. Foco em Engenharia de Software, Estruturas de Dados e Sistemas Distribuídos."
+        "degree": "Licenciatura em Ciências da Computação",
+        "institution": "IMETRO: Instituto Superior Politécnico Metropolitano de Angola",
+        "description": "Foco académico em Sistemas Distribuídos, Algoritmos Avançados, Segurança e Engenharia de Software.",
+        "badge": "ENSINO SUPERIOR"
       },
       {
-        "degree": "Técnico de Informática",
-        "institution": "Instituto Médio Politécnico Alda Lara",
         "period": "2018 – 2022",
-        "description": "Ensino médio técnico em Informática e Programação."
-      }
-    ],
-    "skills": [
-      { "name": "HTML & CSS", "level": 85 },
-      { "name": "JavaScript/TypeScript", "level": 85 },
-      { "name": "Java & Spring Boot", "level": 80 },
-      { "name": "Python & Django", "level": 85 },
-      { "name": "Vue.js & Nuxt", "level": 60 },
-      { "name": "NestJS", "level": 80 },
-      { "name": "C/C++", "level": 65 },
-      { "name": "Infraestrutura", "level": 83 }
-    ],
-    "soft_skills": [
-      "Resolução de Problemas Complexos",
-      "Liderança de Equipa",
-      "Comunicação Estratégica",
-      "Gestão de Tempo & Prioridades"
-    ],
-    "tech_stack": [
-      "PostgreSQL", "MongoDB", "Redis", "Kafka", "RabbitMQ",
-      "Docker", "Kubernetes", "GitHub Actions", "gRPC", "GraphQL", "MinIO", "Linux"
-    ],
-    "languages": [
-      { "name": "Português", "level": "Nativo" },
-      { "name": "Inglês", "level": "B1 / B2" }
-    ],
-    "projects": [
-      {
-        "name": "IMETRO DEV CLUB — IDC",
-        "period": "Mar 2024 – Atual",
-        "description": "Co-fundador de um núcleo universitário que ajuda estudantes a desenvolver competências tech e a crescer profissionalmente.",
-        "link": "https://www.linkedin.com/events/7183109295977222144/about/"
+        "degree": "Técnico de Informática",
+        "institution": "Instituto Médio Politécnico Alda Lara (IMPAL)",
+        "description": "Formação de base sólida em desenvolvimento de software, arquitetura de computadores e redes de comunicação.",
+        "badge": "FORMAÇÃO TÉCNICA MÉDIA"
       },
       {
-        "name": "DEV'S.AO Community",
-        "period": "2022 – Atual",
-        "description": "Administrador de uma das maiores comunidades de desenvolvedores em Angola, reunindo centenas de profissionais e estudantes.",
-        "link": "https://chat.whatsapp.com/JKirIC0g88n6PfOkR6cr3t"
-      },
-      {
-        "name": "Todos Podem Codar",
-        "period": "Jan – Mai 2023",
-        "description": "Projeto de ensino de programação para estudantes de nível básico, com materiais e mentoria gratuitos.",
-        "link": null
+        "period": "2020 – 2022",
+        "degree": "Instrutor & Mentor de Programação",
+        "institution": "Formação de Quadros",
+        "description": "Capacitação técnica de jovens em Lógica de Programação, Algoritmos e incentivo à carreira em Engenharia de Software.",
+        "badge": "CAPACITAÇÃO & MENTORIA"
       }
     ]
   },
   "en": {
-    "nav": {
-      "home": "Home",
-      "about": "About",
-      "resume": "Resume",
-      "projects": "Projects",
-      "contact": "Contact"
-    },
     "header": {
-      "name": "Edgar A. Dikenge",
-      "title_prefix": "I'm a passionate",
-      "title_highlight": "Software Developer",
-      "title_suffix": "from Luanda."
+      "status": "Software Engineer @ Nossa Seguros"
     },
-    "about": {
-      "title": "About",
-      "subtitle": "Know more about me",
-      "role": "Software Engineer",
-      "description_short": "A technology and teaching enthusiast in all its forms.",
-      "label_city": "City:",
-      "city": "Luanda, Angola",
-      "label_nationality": "Nationality:",
-      "nationality": "Angolan",
-      "label_degree": "Degree:",
-      "degree": "Bachelor's Degree",
-      "label_course": "Course:",
-      "course": "Computer Science",
-      "email": "dikengeofficial@gmail.com",
-      "bio": "Backend Software Engineer with 5+ years of experience designing and delivering production-grade, high-availability systems. Specializes in Java/Spring Boot, TypeScript/NestJS and Python, with deep expertise in microservices architecture, RESTful APIs, gRPC and event-driven integration (Kafka, RabbitMQ). Tech Lead at Cinapse SA, driving technical decisions, code quality standards and stakeholder alignment. Proven track record of delivering scalable enterprise software under tight timelines. Committed to clean code, automated testing and continuous delivery. Open to global remote opportunities.",
-      "languages_label": "Languages",
-      "skills_title": "Skills",
-      "soft_skills_title": "Soft Skills",
-      "tech_stack_title": "Tech Stack"
+    "nav": {
+      "thesis": "01 // Thesis",
+      "stack": "02 // Architecture & Stack",
+      "work": "03 // Selected Work",
+      "trajectory": "04 // Trajectory & Education",
+      "community": "05 // Community"
     },
-    "resume": {
-      "title": "Resume",
-      "subtitle": "Check My Resume",
-      "download_en": "Download CV (English)",
-      "download_pt": "Download CV (Portuguese)",
-      "summary_title": "Summary",
-      "education_title": "Education",
-      "experience_title": "Experience",
-      "summary_item_title": "ADMIN & Co-Founder",
-      "summary_desc_1": "Admin of one of the biggest developer communities in Angola — DEV'S.AO",
-      "summary_desc_2": "Co-founder of IDC - IMETRO DEV CLUB, a university tech center helping students grow in their professional careers."
+    "hero": {
+      "title": "Pragmatic software architecture, enterprise integrations and secure systems.",
+      "lede": "I build mission-critical corporate systems: from well-bounded modular monoliths to BFF layers over legacy cores, secure financial flows, and event-driven architectures.",
+      "cta_work": "View selected work",
+      "cv_pt": "CV PT",
+      "cv_en": "CV EN",
+      "availability": "OPEN TO GLOBAL WORK"
     },
-    "projects_section": {
-      "title": "Projects",
-      "subtitle": "What I've Built"
+    "kpi": {
+      "years": "years shipping production software",
+      "insurance": "Integrations & Backend",
+      "core": "DevEx over Cleva core",
+      "community": "IDC + DEV'S.AO"
     },
-    "contact": {
-      "title": "Contact",
-      "subtitle": "Contact Me",
-      "address_title": "My Address",
-      "social_title": "Social Profiles",
-      "email_title": "Email Me"
+    "thesis": {
+      "label": "ENGINEERING THESIS",
+      "title": "Pragmatic and secure software built for the real world.",
+      "one_title": "Resilience & Trade-offs",
+      "one": "There are no one-size-fits-all architectures. Modular monoliths, microservices, or BFFs are chosen based on real trade-offs, idempotency, and operational cost.",
+      "two_title": "Security & Compliance by Design",
+      "two": "In the era of rapid AI integration, security is paramount. Robust authentication (OAuth2/JWT), encryption, input sanitization, and audit trails are mandatory for every API.",
+      "three_title": "Modernization without Rupture",
+      "three": "BFF layers create a secure boundary between fast interfaces and legacy systems that cannot stop."
     },
-    "personal_info": {
-      "full_name": "Edgar A. Dikenge",
-      "nationality": "Angolan",
-      "phone": "+244 940570575",
-      "email": "dikengeofficial@gmail.com",
-      "website": "https://edgar3g.github.io/edgar3g/",
-      "linkedin": "https://ao.linkedin.com/in/edgar-almeida-dikenge-199330261",
-      "whatsapp": "940570575",
-      "address": "Gamek à Directa, Camama, Luanda, Angola"
+    "stack": {
+      "label": "SYSTEM MAP",
+      "title": "My engineering surface."
     },
-    "professional_experience": [
+    "work": {
+      "label": "SELECTED WORK",
+      "title": "Cases that explain the impact."
+    },
+    "trajectory": {
+      "label": "CAREER & EDUCATION SIGNAL",
+      "title": "Experience and education built with rigor.",
+      "tab_exp": "Professional Experience",
+      "tab_edu": "Education & Mentorship"
+    },
+    "community": {
+      "title": "Knowledge scales when it circulates.",
+      "text": "Beyond building systems, I help build the ecosystem. I administer DEV'S.AO and co-founded IMETRO DEV CLUB."
+    },
+    "filters": {
+      "all": "All",
+      "enterprise": "Enterprise",
+      "fintech": "Fintech & Security",
+      "community": "Community"
+    },
+    "stack_cards": [
       {
+        "title": "Enterprise Integrations & Fintech",
+        "items": ["MuleSoft / API-Led", "Cleva Insurance Platform", "AppyPay / GPO Express", "Stripe", "Strapi CMS"]
+      },
+      {
+        "title": "Core Backend & Security",
+        "items": ["Java 21 / Spring Boot 3", "TypeScript / NestJS", "Python", "OAuth2 / JWT / RBAC", "Kafka / RabbitMQ"]
+      },
+      {
+        "title": "Persistence, Cache & Storage",
+        "items": ["PostgreSQL", "MongoDB", "Redis (Cache & Session)", "MinIO / S3", "Flyway / Prisma"]
+      },
+      {
+        "title": "DevOps, Security & Quality",
+        "items": ["Azure DevOps (CI/CD)", "Docker / Kubernetes", "Rancher / Linux", "SonarQube / OWASP", "Integration testing"]
+      }
+    ],
+    "projects": [
+      {
+        "category": "enterprise",
+        "name": "Insurtech Core BFF & API Security",
+        "description": "A BFF layer decoupling the Cleva legacy core, standardizing authorization and serving internal apps with secure REST APIs.",
+        "stack": "MuleSoft · Cleva · OAuth2 · REST · Azure DevOps"
+      },
+      {
+        "category": "fintech",
+        "name": "Resilient & Secure Payment Gateway",
+        "description": "Reference and GPO Express payment integrations with idempotency, signed webhooks, reconciliation, and data encryption.",
+        "stack": "NestJS / Spring Boot · AppyPay · Stripe · Redis · Security"
+      },
+      {
+        "category": "enterprise",
+        "name": "Distributed Architecture & Messaging",
+        "description": "Asynchronous flows for decoupled communication between high-traffic services, ensuring resilience and observability.",
+        "stack": "Java / Spring Boot · Kafka · RabbitMQ · Docker"
+      },
+      {
+        "category": "enterprise",
+        "name": "KoboFace ID & Field Biometrics",
+        "description": "Applied logic for secure facial biometric identification in field environments with limited connectivity.",
+        "stack": "Python · KoboToolbox · Biometrics · Pipeline automation"
+      },
+      {
+        "category": "community",
+        "name": "DEV'S.AO & IMETRO DEV CLUB",
+        "description": "Administration of a national developer community and co-founding an academic tech acceleration hub.",
+        "stack": "Community · Education · Angola"
+      }
+    ],
+    "experience": [
+      {
+        "period": "2026 – Present",
+        "role": "Software Engineer",
+        "level": "CURRENT SCOPE",
+        "company": "Nossa Seguros",
+        "description": "Enterprise integrations with MuleSoft and Cleva, API security, financial gateway, and Azure DevOps pipelines.",
+        "signal": "Mission-critical · Enterprise integration · Security & Backend"
+      },
+      {
+        "period": "2024 – 2026",
         "role": "Software Developer / Tech Lead",
+        "level": "TECHNICAL LEADERSHIP",
         "company": "Cinapse SA",
-        "location": "Luanda, Angola",
-        "period": "May 2024 – Present",
-        "description": "Technical leadership of backend team in Java/Spring Boot. Responsible for microservices architecture, coding standards, code reviews and delivery of enterprise-grade solutions aligned with business requirements and key stakeholders."
+        "description": "Technical leadership of the backend team in Java/Spring Boot, secure architecture design, coding standards, and security audits.",
+        "signal": "Architecture · Technical decisions · Leadership"
       },
       {
+        "period": "2025 – Present",
         "role": "Backend Developer",
+        "level": "BACKEND OWNERSHIP",
         "company": "Mountain Light Business",
-        "location": "Luanda, Angola",
-        "period": "Feb 2025 – Present",
-        "description": "Design and delivery of high-availability RESTful APIs and microservices with TypeScript/NestJS. Active contribution to system architecture, database integration (PostgreSQL, MongoDB) and Docker-based deployment strategies."
+        "description": "Development of RESTful APIs and backend services with TypeScript/NestJS, PostgreSQL, MongoDB, and Docker.",
+        "signal": "APIs · Backend Services · Deployment"
       },
       {
-        "role": "Jr. Software Developer",
-        "company": "Znattech",
-        "location": "Luanda, Angola",
+        "period": "2024 – 2025",
+        "role": "Systems & Payment Integration Consultant",
+        "level": "FREELANCE CONSULTING",
+        "company": "PITEU",
+        "description": "Integration between payment platforms and internal management systems, ensuring strict security validation and reconciliation.",
+        "signal": "Payment Gateways · Transactional Security · FinTech"
+      },
+      {
         "period": "2021 – 2022",
-        "description": "Full-stack development with Vue.js, Django and Odoo in an agile team. Delivered iterative features, integrated third-party APIs and mentored junior peers."
+        "role": "Jr. Software Developer",
+        "level": "FIRST PROFESSIONAL ROLE",
+        "company": "Znattech",
+        "description": "Full-stack development with Vue.js, Django, and Odoo, third-party API integrations, and iterative delivery in an agile team.",
+        "signal": "Full-stack · Iterative delivery · Agility"
       },
       {
-        "role": "Freelance Developer",
-        "company": "Freelancer",
-        "location": "Angola",
         "period": "2020 – Present",
-        "description": "Multifaceted solutions with full autonomy: Landing Pages, Management Systems, APIs and more in TypeScript, Python, Java and C/C++."
+        "role": "Freelance Developer",
+        "level": "FOUNDATION & AUTONOMY",
+        "company": "Independent projects",
+        "description": "Independent delivery of web platforms, management systems, and APIs with TypeScript, Python, Java, and C/C++.",
+        "signal": "Autonomy · Digital products · Versatility"
       }
     ],
     "education": [
       {
-        "degree": "Computer Science",
-        "institution": "Instituto Superior Politécnico Metropolitano de Angola",
         "period": "2022 – Present",
-        "description": "3rd year. Focus on Software Engineering, Data Structures and Distributed Systems."
+        "degree": "B.Sc. in Computer Science",
+        "institution": "IMETRO: Metropolitan Polytechnic Institute of Angola",
+        "description": "Academic focus on Distributed Systems, Advanced Algorithms, Security, and Software Engineering.",
+        "badge": "HIGHER EDUCATION"
       },
       {
-        "degree": "IT Technician",
-        "institution": "Instituto Médio Politécnico Alda Lara",
         "period": "2018 – 2022",
-        "description": "Technical high school degree in Informatics and Programming."
-      }
-    ],
-    "skills": [
-      { "name": "HTML & CSS", "level": 85 },
-      { "name": "JavaScript/TypeScript", "level": 85 },
-      { "name": "Java & Spring Boot", "level": 80 },
-      { "name": "Python & Django", "level": 85 },
-      { "name": "Vue.js & Nuxt", "level": 70 },
-      { "name": "NestJS", "level": 80 },
-      { "name": "C/C++", "level": 65 },
-      { "name": "Infrastructure", "level": 83 }
-    ],
-    "soft_skills": [
-      "Complex Problem Solving",
-      "Team Leadership",
-      "Strategic Communication",
-      "Time & Priority Management"
-    ],
-    "tech_stack": [
-      "PostgreSQL", "MongoDB", "Redis", "Kafka", "RabbitMQ",
-      "Docker", "Kubernetes", "GitHub Actions", "gRPC", "GraphQL", "MinIO", "Linux"
-    ],
-    "languages": [
-      { "name": "Portuguese", "level": "Native" },
-      { "name": "English", "level": "B2" }
-    ],
-    "projects": [
-      {
-        "name": "IMETRO DEV CLUB — IDC",
-        "period": "Mar 2024 – Present",
-        "description": "Co-founder of a university tech club that helps students develop tech skills and grow professionally.",
-        "link": "https://www.linkedin.com/events/7183109295977222144/about/"
+        "degree": "Computer Technician Degree",
+        "institution": "Alda Lara Polytechnic Institute (IMPAL)",
+        "description": "Solid technical foundation in software development, computer architecture, and networking.",
+        "badge": "HIGH SCHOOL DIPLOMA"
       },
       {
-        "name": "DEV'S.AO Community",
-        "period": "2022 – Present",
-        "description": "Admin of one of the largest developer communities in Angola, bringing together hundreds of professionals and students.",
-        "link": "https://chat.whatsapp.com/JKirIC0g88n6PfOkR6cr3t"
-      },
-      {
-        "name": "Todos Podem Codar",
-        "period": "Jan – May 2023",
-        "description": "A programming education initiative for beginner students, with free materials and mentorship.",
-        "link": null
+        "period": "2020 – 2022",
+        "degree": "Programming Instructor & Mentor",
+        "institution": "Formação de Quadros",
+        "description": "Teaching youth programming logic, algorithms, and encouraging careers in Software Engineering.",
+        "badge": "TRAINING & MENTORSHIP"
       }
     ]
   }
