@@ -21,14 +21,14 @@
     "kpi": {
       "years": "anos a entregar software em produção",
       "insurance": "Integrações & Backend",
-      "core": "BFF & Microsserviços",
+      "core": "Arquitetura & Serviços",
       "community": "IDC + DEV'S.AO + TPC"
     },
     "thesis": {
       "label": "ENGINEERING THESIS",
       "title": "Software pragmático e seguro para o mundo real.",
       "one_title": "Resiliência & Trade-offs",
-      "one": "Não existem soluções genéricas. Monólitos modulares, microsserviços ou BFFs são definidos com base em trade-offs reais, idempotência, segurança e custo operacional.",
+      "one": "Não existem soluções genéricas. Monólitos modulares/ simples, microsserviços são definidos com base em trade-offs reais, idempotência, segurança e custo operacional.",
       "two_title": "Segurança & Boas Práticas por Desenho",
       "two": "Numa era de rápida automação e IA, qualidade e segurança são inegociáveis. Clean Code, Design Patterns, autenticação OAuth2/JWT e testes rigorosos são premissas de engenharia.",
       "three_title": "Modernização & Escalabilidade sem Ruptura",
@@ -69,18 +69,18 @@
       },
       {
         "title": "Bases de Dados, Caching & Armazenamento",
-        "items": ["PostgreSQL", "MySQL", "MongoDB", "Redis (Cache & Session)", "MinIO (S3 Storage)", "H2 & SQLite"]
+        "items": ["PostgreSQL", "MySQL", "MongoDB","Sql Server", "Redis (Cache & Session)", "MinIO (S3 Storage)", "H2 & SQLite"]
       },
       {
         "title": "Containerização, DevOps & Mensageria",
-        "items": ["Docker & Kubernetes (K8s)", "Apache Kafka & RabbitMQ", "GitHub Actions & Azure DevOps", "Coolify / Dokploy / Portainer", "Linux & Testes Unitários/Integração"]
+        "items": ["Docker & Kubernetes (K8s)", "Apache Kafka & RabbitMQ", "GitHub Actions & Azure DevOps", "Coolify / Dokploy / Portainer", "Linux", "NAT"]
       }
     ],
     "projects": [
       {
         "category": "enterprise",
-        "name": "Insurtech Core BFF & Integrações Empresariais",
-        "description": "Engenharia de integração corporativa na Nossa Seguros desacoplando o core Cleva com camada BFF via MuleSoft, APIs REST protegidas por OAuth2/JWT e pipelines Azure DevOps.",
+        "name": "Insurtech Core & Integrações Empresariais",
+        "description": "Engenharia de integração corporativa na Nossa Seguros desacoplando o core Cleva com camada de API via MuleSoft, APIs REST protegidas por OAuth2/JWT e pipelines Azure DevOps.",
         "stack": "Java · MuleSoft · Cleva · OAuth2 · Azure DevOps"
       },
       {
@@ -215,14 +215,14 @@
     "kpi": {
       "years": "years delivering production software",
       "insurance": "Integrations & Backend",
-      "core": "BFF & Microservices",
+      "core": "Architecture & Services",
       "community": "IDC + DEV'S.AO + TPC"
     },
     "thesis": {
       "label": "ENGINEERING THESIS",
       "title": "Pragmatic and secure software built for the real world.",
       "one_title": "Resilience & Trade-offs",
-      "one": "There are no one-size-fits-all architectures. Modular monoliths, microservices, or BFFs are chosen based on real trade-offs, idempotency, security, and operational cost.",
+      "one": "There are no one-size-fits-all architectures. Modular monoliths/Vanilla, microservices are chosen based on real trade-offs, idempotency, security, and operational cost.",
       "two_title": "Security & Best Practices by Design",
       "two": "In an era of rapid automation and AI, quality and security are non-negotiable. Clean Code, Design Patterns, OAuth2/JWT authentication, and rigorous testing are engineering fundamentals.",
       "three_title": "Modernization & Scalability without Rupture",
@@ -273,8 +273,8 @@
     "projects": [
       {
         "category": "enterprise",
-        "name": "Insurtech Core BFF & Enterprise Integrations",
-        "description": "Corporate integration engineering at Nossa Seguros decoupling Cleva core with a MuleSoft BFF layer, secure REST APIs with OAuth2/JWT, and Azure DevOps CI/CD pipelines.",
+        "name": "Insurtech Core & Enterprise Integrations",
+        "description": "Corporate integration engineering at Nossa Seguros decoupling Cleva core with a MuleSoft layer, secure REST APIs with OAuth2/JWT, and Azure DevOps CI/CD pipelines.",
         "stack": "Java · MuleSoft · Cleva · OAuth2 · Azure DevOps"
       },
       {
