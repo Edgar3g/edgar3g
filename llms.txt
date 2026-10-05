@@ -1,46 +1,146 @@
 # Edgar A. Dikenge
 
-Edgar A. Dikenge is a Software Engineer based in Luanda, Angola (WAT / UTC+1), specializing in pragmatic software architecture, API security, enterprise integrations, backend platforms, idempotent financial flows, and API-led architectures. He champions choosing software patterns based on real trade-offs: from well-bounded modular monoliths to BFF layers over legacy cores and event-driven architectures.
+> Software Engineer & Integration Consultant based in Luanda, Angola, with continuous production experience since 2020. Specializing in pragmatic software architecture, enterprise integrations, microservices, API security, and high-performance backend systems.
 
-In an era dominated by rapid AI development, Edgar emphasizes Security by Design (OAuth2/JWT authentication, input sanitization, data encryption, RBAC, signed webhooks, and OWASP compliance) as a mandatory foundation for all production software.
+## Professional Summary
 
-Edgar currently serves as a Software Engineer at Nossa Seguros, designing secure BFF layers over legacy insurance core systems (Cleva) using MuleSoft, integration pipelines in Azure DevOps, and idempotent payment processing.
+Edgar A. Dikenge is a Software Engineer with consolidated experience since 2020 developing and evolving robust, high-performance digital solutions. Passionate about transforming complex ideas into efficient, scalable systems, he rigorously applies engineering best practices, Clean Code, and Design Patterns to guarantee software maintainability and quality.
 
-## Contact & Links
-- Website: https://edgar3g.github.io/edgar3g/
-- GitHub: https://github.com/edgar3g
-- LinkedIn: https://www.linkedin.com/in/edgar-almeida-dikenge-199330261/
-- Email: dikengeofficial@gmail.com
-- WhatsApp: +244 940570575
+Edgar works proficiently with TypeScript (Nest.js), Python, Java, and C/C++, building resilient APIs, microservices, and enterprise backend integrations. His expertise spans legacy system refactoring, process automation, Git workflows, and deployment across Docker and Kubernetes (K8s) environments. He is known for technical autonomy, collaborative leadership, and results-driven architecture design that aligns technology with business objectives.
+
+Currently, Edgar serves as Software Engineer & Integration Consultant at Nossa Seguros, designing enterprise integration solutions, MuleSoft API-led connectivity over the legacy Cleva Insurance Platform, secure REST APIs with OAuth2/JWT authentication, and automated CI/CD pipelines in Azure DevOps.
+
+## Personal & Contact Information
+
+- **Full Name:** Edgar Almeida Dikenge
+- **Preferred Name:** Edgar A. Dikenge
+- **Location:** Simione, Camama, Luanda, Angola (WAT / UTC+1)
+- **Nationality:** Angolan (Angolana)
+- **Email:** dikengeofficial@gmail.com
+- **Phone / WhatsApp:** (+244) 940570575
+- **Website:** https://edgar3g.github.io/edgar3g/
+- **LinkedIn:** https://ao.linkedin.com/in/edgar-almeida-dikenge-199330261
+- **GitHub:** https://github.com/edgar3g
+- **Availability:** Open to global work and high-impact engineering challenges
+
+## Language Proficiencies
+
+- **Portuguese:** Native speaker (Língua materna)
+- **English:** Technical and professional proficiency — Reading & Listening (B1/B2), Writing (B1), Speaking (A2/B1)
 
 ## Technical Surface & Stack
-- **Enterprise Integrations & Fintech:** MuleSoft (Anypoint Platform, API-Led), Cleva Insurance Platform, AppyPay (Multicaixa GPO Express), Stripe, Strapi CMS.
-- **Core Backend & Security:** Java 21 / Spring Boot 3, TypeScript / NestJS, Python (Django, Automation), OAuth2 / JWT / RBAC, REST APIs, gRPC, Apache Kafka, RabbitMQ.
-- **Persistence, Caching & Storage:** PostgreSQL, MongoDB, Redis (Cache & Session Store), MinIO (S3 Object Storage), Flyway Migrations, Prisma ORM.
-- **DevOps, Security & Quality:** Azure DevOps (CI/CD Pipelines), Docker, Kubernetes, Rancher Manager, Linux, SonarQube / OWASP Scanner, Integration Testing.
 
-## Professional Experience
-- **2026 – Present: Software Engineer @ Nossa Seguros**
-  Enterprise integrations over MuleSoft and Cleva Insurance Core, API security governance, financial gateway architecture, and Azure DevOps CI/CD pipelines.
-- **2024 – 2026: Software Developer / Tech Lead @ Cinapse SA**
-  Technical leadership of the backend engineering team using Java / Spring Boot and Angular, secure architecture design (modular monoliths & microservices when appropriate), coding standards, and security code reviews.
-- **2025 – Present: Backend Developer @ Mountain Light Business**
-  API design and backend service development with TypeScript / NestJS, PostgreSQL, MongoDB, and Docker.
-- **2024 – 2025: Systems & Payment Integration Consultant (Freelance) @ PITEU**
-  Integration of payment gateways (AppyPay / GPO Express) with management systems, ensuring strict security validation, idempotency, and transactional reliability.
-- **2021 – 2022: Jr. Software Developer @ Znattech**
-  Full-stack software development using Vue.js, Django, and Odoo, integrating third-party APIs in agile sprint cycles.
-- **2020 – Present: Freelance Developer @ Independent Projects**
-  Autonomous creation of web platforms, management systems, and REST APIs using TypeScript, Python, Java, and C/C++.
+### Programming Languages & Core
+- Java (Java 17 / 21)
+- Python (Python 3.x)
+- JavaScript & TypeScript (ES6+)
+- C / C++
+- Object-Oriented Programming (OOP) & Clean Architecture
 
-## Academic Education & Mentorship
-- **2022 – Present: B.Sc. in Computer Science @ Instituto Superior Politécnico Metropolitano de Angola (IMETRO)**
-  Academic focus on Distributed Systems, Advanced Algorithms, Information Security, and Software Engineering.
-- **2018 – 2022: Computer Technician Degree @ Instituto Médio Politécnico Alda Lara (IMPAL)**
-  Solid technical foundation in programming, computer architecture, and networking.
-- **2020 – 2022: Programming Instructor & Mentor @ Formação de Quadros**
-  Taught programming logic and algorithms to young students, encouraging technical careers in software development.
+### Frameworks & Backend Architecture
+- Java: Spring Boot, Spring Security, Spring Data JPA, Swing
+- Node.js / TypeScript: NestJS, Express
+- Python: Django, Django REST Framework, automation scripts
+- Architecture Styles: Microservices, Modular Monoliths, Backend-For-Frontend (BFF), Event-Driven Architecture
+- API Protocols: RESTful APIs, GraphQL, gRPC
 
-## Community & Leadership
-- **DEV'S.AO:** Administrator of Angola's national developer community.
-- **IMETRO DEV CLUB (IDC):** Co-founder of an academic student technology center offering workshops, mentorship, and technical acceleration.
+### Databases, Caching & Storage
+- Relational Databases: PostgreSQL, MySQL
+- NoSQL Databases: MongoDB
+- In-Memory & Embedded DBs: H2, SQLite, Redis (Session Management & High-Speed Cache)
+- Object Storage: MinIO (S3-compatible storage), AWS S3
+
+### DevOps, Cloud & Infrastructure
+- Containerization & Orchestration: Docker, Docker Compose, Kubernetes (K8s)
+- CI/CD & Cloud Platforms: GitHub Actions, Azure DevOps Pipelines
+- Infrastructure & Self-Hosted Tools: Linux server administration, Coolify, Dokploy, Portainer, Rancher
+- Code Quality & Security: SonarQube, OWASP standards, Integration Testing, Unit Testing (JUnit, Mockito, Jest, PyTest)
+
+### Messaging & Event Streaming
+- Apache Kafka
+- RabbitMQ
+
+### Enterprise Integration & FinTech
+- MuleSoft (Anypoint Platform, API-Led Connectivity)
+- Cleva Insurance Core Platform
+- Payment Gateways: AppyPay, Multicaixa GPO Express, Stripe
+- ERP & CMS: Odoo ERP, Strapi CMS
+
+## Soft Skills & Leadership Capabilities
+
+- **Complex Problem Solving (Analysis & Strategy):** Analytical and structured methodology to decompose highly complex business and algorithmic challenges into resilient, long-term technical solutions.
+- **Collaboration & Team Building:** Proven track record leading and collaborating effectively with multidisciplinary and remote teams (Product Managers, UI/UX Designers, QA, and DevOps), fostering an inclusive, productive work culture.
+- **Strategic Communication & Stakeholder Management:** Ability to articulate complex architectural trade-offs and technical decisions clearly to non-technical stakeholders, executive management, and fellow developers.
+- **Priority Management & Delivery Ownership:** Strong discipline in managing multiple projects and tight deadlines simultaneously, prioritizing tasks that maximize continuous, reliable business value.
+
+## Detailed Professional Experience
+
+### Software Engineer / Consultor de Integração — Nossa Seguros
+*Luanda, Angola | 13/04/2026 – Present*
+- Leading enterprise integration engineering and backend service modernization.
+- Designing and implementing secure Backend-For-Frontend (BFF) layers with MuleSoft to decouple the Cleva Insurance legacy core system.
+- Standardizing API security policies (OAuth2, JWT tokens, Role-Based Access Control - RBAC) and audit mechanisms.
+- Building resilient financial integration flows and managing automated CI/CD pipelines in Azure DevOps.
+- *Keywords:* MuleSoft, Cleva Core, Java, Spring Boot, REST APIs, OAuth2, Azure DevOps, Enterprise Integration.
+
+### Desenvolvedor de Software (Team Leader & Backend) — Cinapse SA
+*Luanda, Angola | 16/05/2024 – 03/04/2026*
+- Acted as Team Leader and Senior Backend Software Engineer, guiding engineering team members in technical execution and code quality.
+- Led the architecture, design, and implementation of scalable, fault-tolerant backend solutions using Java and the Spring Boot ecosystem.
+- Designed distributed asynchronous event-driven flows using Apache Kafka and RabbitMQ to guarantee loose coupling and high throughput.
+- Enforced code reviews, automated testing, Clean Code practices, and architectural integrity aligned with client needs and product roadmap.
+- *Keywords:* Java, Spring Boot, Kafka, RabbitMQ, Microservices, Team Leadership, Docker, Clean Code.
+
+### Desenvolvedor de Software (Backend Nest.js) — Mountain Light Business
+*Luanda, Angola | 01/02/2025 – 06/03/2026*
+- Backend Software Developer specialized in TypeScript and Nest.js architecture.
+- Engineered high-performance RESTful APIs and distributed backend microservices.
+- Modeled and optimized relational and document databases using PostgreSQL and MongoDB.
+- Implemented containerized deployment setups using Docker, maintaining high code maintainability and test coverage.
+- *Keywords:* TypeScript, Nest.js, PostgreSQL, MongoDB, Docker, Microservices, REST APIs.
+
+### Desenvolvedor de Software Jr. — Znattech
+*Luanda, Angola | 2021 – 2022*
+- Junior Full-Stack Developer utilizing Vue.js, Python/Django, and Odoo ERP.
+- Collaborated within an agile Scrum team to transform product requirements into production-ready features.
+- Developed reactive and accessible frontend interfaces with Vue.js, improving application aesthetics and user experience (UX).
+- Integrated third-party APIs and built backend business logic and custom modules on Django and Odoo.
+- *Keywords:* Vue.js, Python, Django, Odoo ERP, Agile, Scrum, REST APIs.
+
+### Desenvolvedor de Software Freelancer — Independent Consulting
+*Luanda, Angola | 2020 – Present*
+- Independent software consultant and developer delivering full end-to-end digital solutions for diverse clients and organizations.
+- Designed, coded, and deployed web platforms, management systems, and specialized APIs using TypeScript, Python, Java, and C/C++.
+- Built payment gateway integrations (including Multicaixa GPO Express and bank reference services) with idempotency, webhook signature verification, and transactional security.
+- *Keywords:* Freelance, Full-Stack, Java, Python, TypeScript, C/C++, Payment Gateways, Autonomy.
+
+## Education & Academic Qualifications
+
+### Licenciatura em Ciências da Computação (B.Sc. in Computer Science)
+*Instituto Superior Politécnico Metropolitano de Angola (IMETRO) | 2022 – Present (Luanda, Angola)*
+- Academic coursework focusing on Distributed Systems, Advanced Algorithms, Data Structures, Information Security, Artificial Intelligence, and Software Engineering.
+
+### Técnico de Informática (Computer Technician Degree)
+*Instituto Médio Politécnico Alda Lara (IMPAL) | 2018 – 2022 (Luanda, Angola)*
+- Solid foundational diploma in software development, computer architecture, operating systems, and computer networking.
+
+## Educational Initiatives, Mentorship & Community Leadership
+
+### Todos Podem Codar
+*Founder & Programming Mentor | 01/2023 – 05/2023*
+- Founded a volunteer educational project to teach programming logic, algorithmic thinking, and computer science foundations to university students, helping them avoid course failure and excel in tech careers.
+
+### IMETRO DEV CLUB (IDC)
+*Co-founder & Technical Lead | 03/2024 – Present*
+- Co-founded the university's official student developer hub, organizing hands-on coding workshops, hackathons, and technical bootcamps.
+- LinkedIn Event & Community Reference: https://www.linkedin.com/events/7183109295977222144/about/
+
+### DEV'S.AO
+*Community Administrator | Ongoing*
+- Active administrator of Angola's nationwide software developer community, promoting open-source contributions, technical knowledge sharing, and developer networking.
+
+## Core Engineering Principles & Thesis
+
+1. **Resilience & Pragmatic Trade-offs:** There are no silver-bullet architectures. Modular monoliths, microservices, or BFF layers must be selected based on real trade-offs: team topology, operational costs, network latency, and idempotency requirements.
+2. **Security & Best Practices by Design:** Security and code quality cannot be afterthoughts. Clean Code, proven Design Patterns, strong authentication (OAuth2/JWT), input sanitization, and automated integration testing are foundational prerequisites for production software.
+3. **Seamless Modernization without Rupture:** Modern integration layers and strategic refactoring build an optimal bridge between agile interfaces and mission-critical legacy systems that cannot experience downtime.
